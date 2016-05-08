@@ -1,0 +1,171 @@
+LEXICON-SONATE
+
+RV - Warum "Sonate" ?
+
+KHZ - Wortspiel / Witz
+Le Lexicon-Roman n'est pas un roman mais un dictionnaire (Lexicon), qui abolit la linéarité du roman.
+Le pendant du roman est la sonate ; de même la Lexicon-Sonate n'est pas une sonate. Elle contient cependant tout ce qu'une sonate peut contenir !
+
+RV - La linéarité du roman et la forme sonate sont aussi importantes et aussi essentielles dans les deux cas ?
+
+KHZ - Oui, et à la fois la forme est absente mais tout le contenu est présent. Dans le Lexicon-Roman il y a un voyage sur le Danube, qui déclenche un voyage temporel.
+
+RV - Comment écouter la Lexicon-Sonate ?
+
+KHZ - Ça dépend du contexte dans lequel elle est jouée. Il y a différents modes. Le premier est le mode de l'"installation", où la Lexicon-Sonate est enclenchée et se compose, comme on la présenterait dans une exposition (sur un piano contrôlé). Le deuxième mode est le mode "de concert", que j'ai développé plus tard : un interprète peut diriger le programme et improviser (je le fais parfois).
+
+RV - Et quand on télécharge le programme ?
+
+KHZ - On fait ce qu'on veut. C'est un "cadeau". On peut l'utiliser pour générer de la musique de fond, ou expérimenter, jouer avec les contrôles, de même que ce que je fais en concert.
+
+RV - Quelles étapes ?
+
+KHZ - À vrai dire, la pièce était dès le début déjà presque telle qu'elle est aujourd'hui, mais seulement dans le mode d'"installation". L'ajout le plus important a été de l'ouverture de la structure, de l'hermétique, qui a permis d'en faire un instrument. À part ça, j'ai essentiellement fait de petites modifications, adpatations, optimisations des algorithmes. Mais dès les premières années la pièce ressemblait à ce qu'elle est encore.
+
+RV - Et pourquoi plus de MIDI ?
+
+KHZ - J'ai découvert que des gens utilisaient la Lexicon-Sonate pour générer des partitions par ce biais. Ils l'ont utilisée pour créer des morceaux, qu'ils ont pour ainsi dire vendus comme leurs morceaux. J'ai trouvé que c'était une méchante idée, totalement à l'encontre du concept, qui est celui de l'éphémère, qu'on ne peut pas fixer. Il m'est arrivé de le faire moi-même, et 
+
+
+... beindruckend aussehende Partitur bekommen, aber das widerspricht die Idee der Musik, man soll es nicht reproduzieren, auf den Tasten, weil das ist kein Stück für die Pianisten, sondern es ist ein Stück für ein Computer. Und weil diese Leute haben es nicht verstanden haben, sondern haben das Stück benutzt wie ein Stück ???, habe ich gesagt: okay, dann wird das abgeschaltet. Es ist ganz einfach das zu öffnen, ja. Deshalb funktionnert diese Public Domain Version nicht mehr mit einem MIDI-Klavier. Und wenn jemand mich kontaktiert, der Ausführungen mit einem Klavier machen möchte, und ???, dann schicke ich ihm die offene Version. Aber ich mit der Netz-Version die irgendjemand herunterladen kann, ist es nicht möglich. Es ist so das mittlerweile Quick-Time bessere Klaviersamples eingebaut haben, mit einer besseren Klangqualität bekommen. Aber am Anfang klangte es wirklich wie eine Playstation, wie Super Mario. Es klingt immer noch nicht ganz überzeugend, aber es kann mindestents das Stück abbilden.
+
+RV - Diese Partituren: spielbar?
+
+KHZ - Nicht genau, aber das kann man natürlich einrichten. Man kann das als Generator verwenden, zum Beispitel Akkordstrukturen generieren... Aber das ist nicht die Idee, außerdem gibt es immer die Frage der Autorenschaft. Ich finde dass, wenn Leute das tun, dann sollen sie mich mindestens referenzieren.
+
+RV - Komplex aber keine Wiederholung ?
+
+KHZ - Das ist schon der Absicht! Also es gibt im Leben auch nicht die Möglichkeit zurückzugehen, und zu sagen "ich möchte nochmal dort hin". Also wenn Sie irgendwie eine Umfall gehabt haben, mit dem Auto, dann können Sie nicht sagen "ich gehe wieder zurück in der Stadt, und jetzt passe ich besser auf, und es passiert keinen Umfall", sondern es passiert einfach Sachen, die nicht wiederholbar sind. Und das entspricht der ???? unseres Leben, und das bildet auch die Lexicon-Sonate ab. Das heißt, es erzeugt im Hören eine ganz andere Aufmerksamkeit wenn man weiss, das es sich nicht wiederholt. Und wenn etwas Tolles passiert, dann ist es ein Geschenk, sowie eine Begegnung mit einem Menschen, zufällig, die man nicht wieder hat, und auf dem man sich freuen muss, anstatt zu sagen: "ich kann ja alles reproduzieren".
+
+RV - Unterschied zwischen Komplexität von verschiedenen Modulen?
+
+KHZ - Wie gesagt, weil diese Lexicon-Sonate versucht, bestimmte musikalische Topoi, so zu sagen, zu synthetisieren. Und es gibt einfach manche die sind ganz einfach, und auch die seht kompliziert sind, aber selbst ???. Bei Mozart braucht man natürlich etwas kompliziertes, und dann die Kombination von beiden ensteht einlich erst das Interessante. Das ist bei der Lexicon-Sonate auch so.
+
+RV - Unterschied zwischen (3) Modulen, und die einfache Weise sie zu kombinieren?
+
+KHZ - Das hat auch etwas zu tun mit der Relatät??? unseres Leben, dass auch vieles geichzietig passieren, die miteinander nicht verbunden sind, aber in der ??? zu einem Gesamten werden. Das ist nicht nur ein Glaube von mir, aber das hat auch mittlerweile die Hirnfroschung bewiesen, das der Mensch (genauer gesagt das Gehirn) konstruiert alles, das es aufnimmt, und versucht mit Bedeutung und Sinn zu füllen. Das heißt, das Gehirn versucht aus dem Chaos der Informationnen, aus viel auszufiltern, und versucht aus diesen gefilterten Informationnen sinnvolle Connexions zu bilden. Und das ist eigentlich auch in der Lexicon-Sonate ein Thema, das diese drei Generatoren die gleichzeitig laufen Völlig unabhängig voneinander sind. Aber wenn während des Hörens merken wir das nicht. ??? damit beschäftigt sind, ??? miteinander zu verbinden. Und wir merken vielleicht die unterschieliche Ebenen, wenn die Modulen, die man hört, sehr unsterschiedlich sind, und dann kann man sehr gut folgen: hier sind die Trille, hier die Glissandi, hier die Melodie. Und dann beginnt man, wenn man die Sachen so ??? unterscheiden kann, kann man sagen: jetzt möchte ich mehr die Trille hören, oder die Melodie, die Glissandi, das heißt in der ??? kann man fokusieren und so gewisse Wege der einzelnen Struckturen, Schichten, hören ???.
+
+RV - Metapher für das Leben?
+
+KHZ - Ja, ich würde ???. In gewisser Weise ist es natürlich ein hermetisches Stück, ???. Aber hinter dieser Hermetik verbirgt sich sehr viel, das mit unserem aktuellen Leben zu tun hat. Und vielleicht ist es das, wie Sie sagen, das das Menschen anspricht. Es ist nicht eine einfache Musik, es ist komplexe Musik, aber es bildet irgendwas ab, was wir vieilleicht täglich erleben, und jetzt ästhetisch transformiert, ???.
+
+RV - Es ist immer ein Erlebnis.
+
+KHZ - Und eine überraschung.
+
+
+GESTERN
+
+RV - Kleider
+
+KHZ - Wir haben das überlegt. Die Agnes hat mich gefragt, einige Tage vor dem Konzert: wie sollen wir uns anziehen? Und ich habe gesagt, ich komme ganz Schwarz, weil es geht um die Nacht, und dann hat sie gesagt: wenn du in Schwarz gehst, dann komme ich ganz in Weiss, das wird die Polarität darstellen.
+
+RV - visuel wichtig ?
+
+KHZ - Absolut. Ich glaube, das ist ein Teil der Performanz. Wenn man an der Bühne steht, ist man nicht Privat. Ich würde nicht so spielen (***). Ich habe das vielleicht früher gemacht, aber ich bin darauf gekommen, das das stimmt nicht. Wenn ich im Studio bin oder Privat, dann kann ich so gehen, aber auch wenn ich unterrichte zum Beispiel, an der Universität, bin ich immer ???, und bin immer Schwarz gekleidet, und immer elegant. Das ist das Besonderes: es ist nicht der normale Alltag, sondern ??? anderes. Hier bin ich ganz léger, aber wenn ich im Unterricht oder an der Universität bin, bin ich immer korrekt angezogen. Ich habe nie Kravatten, und ich trage selten ???, aber ich immer mit sehr ??? und schwarzen Jeans, und schwarzem T-Shirt. Es ist die standard Kleidung, die sieht immer gleich aus.
+
+RV - Photoapparate?
+
+KHZ - Nein, das waren meine Söhne, und sie sind sehr vorsichtig und sehr sensibel, und die machen das gut. Mich hat es nicht gestört. Es gibt Kameraleute die stören mich unglaublich, weil sie einfach unsensibel sind und nicht aufpassen, aber die beiden haben das super gemacht. Ich weiss nicht, war das für das Publikum störend?
+
+RV - Pas trop
+
+KHZ - Ich habe das fast nicht ???. Und außerdem, weil das meine Söhne sind, eine vertraut und eine Vertraut ??? Freude ???. Und sie machen das oft, und sie sind selber Musiker, und sie machen elektronische Musik, das heißt, sie wissen wie man spielt.
+
+RV - Texte?
+
+KHZ - In unserem Projekt "out of the blue" ist die Agnes immer dür die Texte zuständig, und ich dür die Sounds. Das heißt, dass sie sich wirklich sehr intensiv mit Nietsche beschäftigt. Das ganze war übrings eine Einladung zu einem internationlen Forschungsprojekt mit verschiedenen Wissenschaftlern und Künstlern, das wir letztes Jahr gemacht hatten in Wien. Ich habe gestern am Schluss noch etwas gesagt. Zwei Menschen waren im Publikum, die haben mich eingeladen damit zu machen, und gesagt, dass sie etwas zu Nietsche machen, und haben mich um einen Beitrag gebeten, und ich habe gesagt: das würde ich gerne machen aber nur mit Agnes! Wir machen eine Textperformanz mit Musik. Und so ist die Agnes zu Nietsche gekommen, von wem sie nicht so viel kannte, aber sie hat sich sehr intensiv damit beschäftigt, hat viel gelesen, und hat aus verschiedenen Auszeichnungen, das heißt einerseits Gedichte, philosophische Texte, Tagebuchauszeichnungen, und Briefe eine Textmontage gemacht. Und dann hat sie ???, und hat dann drei Stücke für drei verschiedene Teileso zu sagen, und hat dort diese Texte in Kopien aufgeklebt. Eine "Textpartitur". Aber die waren nicht so zu lesen, das man sie von vorne nach hinten liest, sondern das waren Patches, und sie hat damit improvisiert.
+
+RV - Leichter wenn man eng mit dem Text ist.
+
+KHZ - Ja, das ist toll. Die Agnes ist eigentlich eine Jazz-Sängerin, und sie macht auch viele frei Improvisationnen ohne Text, nur mit der Stimme und alles was mit der Stimme machen kann. Mit den Texten gibt es irgendwas was einem ständig Material??? inspiriert. Und das funktionniert einfach extrem gut!
+
+RV - Wie Sie mit ihrem Instrument.
+
+KHZ - Genau. Aber ich arbeite auch in Grunde mit Samples, als Basis, die werden prozessiert und miteinander vergemischt, und sie macht veilleicht etwas ähnliches mit den Texten und mit der Stimme. Es ist sehr ???.
+
+RV - Erinnerungen an Zarathustra: in Echtzeit geschaffen oder Strukturgeneratoren vorbereitet?
+
+KHZ - Ich habe aus dem Vorspiel, aus den ersten zwei Minuten bestimmte Teile gesampelt, und damit gearbeitet. Aber ich habe auch eine Art von Struktur vorbereitet, wie ein Preset, für eine Situation, diese bestimmte Strukturgeneratoren die ich im Stück verwende, in dem m@ze°2, mit den bestimmten Samples gefüttert sind und mit bestimmten Parametern für die Algorithmen, zum Beipsiel Transpositionnen, Harmonik..., die kombinierbar sind, und die müssen so angepasst werden, das sie zusammen harmonisch zusammen passen. Und das sind, ??? Transpositionnen genau einzustellen, und in der Granular-Synthese muss ich auch sagen, ???, und wie groß die Körner (also, die Grains) sind, und ??? können, und so weiter. Und das ist auch vordefiniert, ???
+ich brauche es nicht nachdenken über Abstrakte Begreiffe wie Grain-size, sondern ich weiss einfach wenn ich diesen Generatoren der Stelle aufrufe, dann macht der Generator was ich vorher schon quasi komponiert habe, und kann damit improvisieren.
+
+RV - Oft Gespräch + mit dem Publikum reden
+
+KHZ - Das hängt vom Kontext ab. Es ist das erste Mal das ich danach spreche. Es war einfach deswegen, weil das Stück beginnt so zu sagen wirlklich aus dem Nichts, und man kann nicht am Anfang herausgehen und die Rolle enden, sagen: ich bin jetzt der Veranstalter, une erzähle etwas über das Stück, und dann verändere ich die Rolle wieder, bin jetzt der Musiker. Das ist schierig. Deswegen habe ich es gestern nachher gemacht. Normalerweise ist es so, dass am Anfang die Agnes als Schauspielerin so zu sagen das Publikum begrüßt, und erklärt, was wir da machen. Das Publikum weiss nicht, was wir machen, glaubt vielleicht, dass wir vorbereitete Stücke spielen und führen einfach ein Program. Und dann erklärt sie den Leuten, dass wir mit Texten arbeiten, und dass wir frei improvisieren, und dass wir nicht wissen was daraus kommt. Und dann ??? total irritiert, oder gespannt, und wenn es beginnt merken sie: oh, schön, ja, interessant, dann ist die Verbingung mit dem Publikum geschaffen.
+
+
+ECHTZEIT KOMPOSITION
+
+RV - Probleme mit der Komplexität?
+
+KHZ - Nie. Also wenn man sich auf diesem Echtzeitsansatz ???, gehen nur bestimmte Sachen. Also zum Beispiel Dinge wie backtracking, das funktionniert nicht. Man kann nicht sagen: ich generiere erstmal eine Struktur, die ich dann vergleiche und optimiere, das geht nicht. Das heißt, man muss einen ganz anderen Blick anschlagen.
+
+RV - mit MAX verbunden
+
+KHZ - Ja, ja. Also die Struktur der Schleife, wie das in Programmiersprachen wie C oder so ist, wird anders gelöst. Das ist ein völlig anderer Ansatz. Und das ist vielleicht ganz gut, aus diesem Schleifen ???. "for", "if", "while, oder so was... Man muss es anders lösen. Aber weil alles in Echtzeit laüft, und die Zeit vorbeigeht, ist die Zeit der drohende Faktor, das entspricht wie man spielt oder wie man Musik macht. Beim Komponieren ist es anders. Beim Komponieren ist meine ??? anderen Modus: da kann man immer in der Zeit vor und zurück, und Beizeihungen herstellen und verbessern. Aber wenn man so zu sagen Live spielt oder improvisiert, dann muss man immer mit der Zeit arbeiten. Alles was passiert ist nicht wiederholbar -oder man kann vielleicht versuchen, zurückzugehen, etwas ähnliches zu machen, aber es gibt ein ständiger Weiterfließ der Zeit.
+
+RV - (out of time Komposition) Grenze zwischen Ideen implementieren und mit dem Computer spielen?
+
+KHZ - Es ist sehr unterschiedlich. Es gibt Stücke, die ich komplett ohne Computer mache. Also die meisten meiner Instrumentalstücke mache ich nicht mit dem Computer. Ich arbeite viel mit Papier und Bleischift, auch viel mit Instrumenten, und der Computer kommt meistens in den Stücken mit Elektronik, als quasi instrmentale Ersatz, oder als instrumentale Ebene. Ich habe früher, in den 90. Jahren, viele Stücke von instrumentalen Musik mit Kompositionsalgorithmen komponiert, aber das mache ich jetzt nicht mehr. Ich werde vielleicht wieder mit solchen Dingen arbeiten, mit diesem Opus, wie ich es Ihnen erzählt habe, würde es mich interessieren, aber in den letzten Jahren habe ich instrumentale Werke ohne das Computer geschrieben. Ich bin darauf gekommen, dass ich in bestimmten Bereichen viel besser als der Computer bin, zum Beispiel wenn es um Harmonik geht, um Tonhöhen. Dafür habe ich mehr Erfahrung, bessere Vorstellungen, mehr Fähigkeiten als der Computer. Es wäre wahrscheinlich mühsam, das zu programmieren, weil ich weder die Lust noch die Zeit habe, und ich mache es lieber selber. Mit dem Computer würde es wahrscheinlich fünfmal so lang dauern.
+
+RV - + zu persönnlich
+
+KHZ - Ja, es ist richtig! Also, es ist wie ein geheimes Handwerk, mit dem ich einfach umgehe, und das nicht Theoriefähig. Ich errinere mich, ich hatte ein stück geschrieben für Toy-Piano und Ensemble, 'under wood', und da hat eine Musikwissenschaftlerin einen Aufsatz geschrieben über das Stück und hat dann eine Analyse gemacht, nur über die harmonische Struktur. Sie hat einfach unglaublich interessante Sachen ausgefunden, so wie ich denke! Sie hat einen Intervalfelder aufgezeichnet und hat mir auch gefragt: haben sie das wirlklich so gemacht, und ich habe gesagt: ja ja, das stimmt, das ist richtig! (***rires) Aber das ist gach nicht si wichtig, das ist Handwerk, das brauche ich um die Klangenräume abzustecken, und damit es auch sinnvoll zusammen klingt. Aber das ist gach nicht so wichtig, sondern das geht eigentlich mehr um die Art von Strukturen die entstehen, die diese Harmonik quasi ??? sind. ??? interessant in der Musiktheorie -das Fach Musiktheorie- ist sehr Tonhöhen-orientiert. Die Tonhöhen werden immer analysiert. In der Musik die ich schreibe geht es viel um Klang und um anderes, und das wird eigentlich nicht berücksichtigt. Ich habe auch gesagt, es ist nicht im Vordergrund. Es war Ihr Ansatz gewesen.
+
+RV - Möglich die Lexicon-Sonate harmonisch analysieren?
+
+KHZ - Harmonisch nicht, weil die Harmonik ist sehr komplex. Die Harmonik ist in den Generatoren unterschielich ???. "Esprit" zum Beispiel arbeitet mit einer Art von Brown'schen Zufall, mit bestimmen Wiederholungsverbote, was Intervalle und Töne anlangt. Aber es generiert sich so zu sagen mit dem Zufallsprinzip. Und es gibt andere Generatoren, "Chords" oder "BrownChords" zum Beispiel, die mit Intervallstrukturen funktionnieren, also das ist eine Harmonik für die Höhe ???, aber es gibt ein ganz strenges Regelsystem, das bestimmte Intervalkombinationnen vermeidet und ausschließt. Und dadurch entstehen noch ganz bestimmte Arten von Klängen. Sie kommen als zum Beispiel keine ???. Es können ??? entstehen, aber alles van Tonal klingt wird strategisch ausgekümmert.
+
+RV - => Analyse der Algorithmen
+
+KHZ - Warscheinlich. Gar nicht jetzt des Outpots, sondern der Komposition des Algorithmus.
+
+RV - Wie wichtig is es zu wissen wie ein Stück funktionniert
+
+KHZ - Das ist eine sehr gute Frage. Also in der Post-moderne gibt es das Begriff der Doppelkodierung. Das heißt, ein Kunstwerk ist nicht eindeutig, sondern es spricht mehreren Sprachen gleichzeitig, und man kann unterschiedliche Sachen hören. Es gibt den Modus des naiven Hörens, wenn man das Stück ohne Information hört, und auf sich wirken lässt, und damit etwas anfängt oder nicht. Und es gibt das Spezialistenhören, wenn man den Leuten Informationnen und deshalb eine bestimmte Richtung gibt, und mit diese Vollinformation einen Anderen Fokus ???. Und dazwischen gibt es viele Möglichkeiten. Ich glaube, es ist beides möglich, und es gibt sicher mehre Arte von Hören zwischen diesen Spezialistenhören und den naiven, unschuldigen Hören. Aber ich sage oft, dass die Leute sollen eigentlich möglichts ??? eingenommen ???. Manchmal ist es wichtig einen Kontext zuerst zu ???. Zum Beispiel, dieses Instrument hier ist eine Pipa. Es ist ein chinesisches Instrument mit einer sehr langen Geschichte. Es war von Frauen gespielt, und es ist ein sehr virtuoses Instrument, hier ist eine arabische Oud. Interessant ist dass diese Oud die als Instrument schon ??? Jahre alt ist, so zu sagen irgendwie nach China gekommen ist, und die haben das so zu sagen nachgebaut, und diese Version daraus gemacht. Die haben ein anderes Tonsystem, deswegen haben sie jetzt Bünde mit fixen Tonen (die Oud hat keine Bünde, weil es diese ???Struktur mit Mikrotönen gibt). Und ich habe ein Stück gemacht mit Pipa und Live-Electronik, und das war nicht einfach ein Stück mit irgendeinem Instrument, sondern ich bin ganz bewusst auf die Geschichte dieses Instrument eingegangen, und habe einen Text gefunden, ein Gedicht von einem sehr berühmten chinesischen Dichter aus dem achten Jahrhundert, was ein Gedicht über die Pipa ist. Das ist voll mit Naturbildern und beschreibt einen Abend im Spätsommer, wo der Mond aufgeht, und der Fluß fließt, und es gibt Freunden die miteinander feiern, sich verabschieden, und plötzlich hören sie die Klang einer Pipa, und ??? dort hin, und sieht eine Frau, die Pipa spielt, und ist ganz traurig und verzweifelt, also eine Art Liebesgeschischte. Und ich wollte eigentlich, dass dieses Instrument mit seiner Geschichte irgendwie eine Rolle spielt, und deswegen habe ich das Stück so komponiert, dass dieses Gedicht auch vorkommt. Ich habe diese Pipaspielerin, die chinesisch ist, gebeten, das Gedicht zu zitieren, und habe dann einige Versen genommen, und habe das so gemacht, dass im Laufe des Stücks das Instrument plötzlich beginnt zu sprechen. Ich habe mit Convolution gearbeitet, bestimmt ???, dass so zu sagen kommt aus diesem electronischen Klang, denn die Pipa ???, sieht wie eine menschliche Stimme aus. Das ist ein Stück, was eigentlich mit einer bestimmten Art von Tradition arbeitet und auch referenziert, das ist zwischen Asien und Europa, das ist ein ??? Unterschied. Und ich habe doch versucht, irgendwie eine Verbindung herzustellen. Und wir haben das Stück mehrmals in Taïwan gespielt, und das ist bei den Leuten sehr gut angekommen, weil sie das alles verstanden haben. Also wenn man es in östrerreich spielt, hört man zwar, dass die Pipa plötzlich anfängt, zu reden, in einer völlig unverständlichen Sprache, aber für die Chinesen war das toll, weil sie das Gedicht doch kennen. Es gibt in jeder Kultur gewisse Gedichte, die jedes Kind kennt. Also, soviel zu Frage: wieviel Information wichtig ist, manchmal ist es wichtig, manchmal referenziere ich, manchmal möchte ich es auch vermeiden.
+
+RV - Xenakis ?
+
+KHZ - Sehr gute Frage, weil ich ??? gibt es Dinge, die ich sehr interessant finde, und "Formalized Musik habe ich auch gelesen"... Ich weiss es nicht! Es wäre für mich vielleicht nicht der absolute Referenzpunkt, auch außermusikalische. Das ist vielleicht etwas, das ist mir nicht so nah, obwohl ich sehr schätze was er macht, aber mein Zugang ist eher seriel geprägt, und das hat sehr stark ???, am Grunde ??? miteinander gewisserweise versöhnt verbunden diese Ansätze.
+
+RV - Free Software
+
+KHZ - Ich finde, dass es eine ganz großartige Idee ist. Ich meine, ich leide darunter, dass ich wenig mit graphischen Software arbeite. Dann unter bestimmten Umstände, ???, es ist sehr mühsam. Ich bin auch gern bereit, für Software zu zahlen. Es gibt zum Beispiel Reaper. Da kann man zahlen oder nicht, und ich habe natürlich gezahlt, weil ich finde, dass es ein gutes Program ist, und ich ??? auch verlassen, die funktionniert einfach, und ich muss mir nicht immer in das System registrieren, um es zum Laufen zu bringen. Also es hat den Vorteil, dass wenn sie gut gemacht sind, sehr verlässlich zu sein. Es gibt auch die Möglichkeit, dass man sie weiterentwickeln kann.
+
+RV - Mac
+
+KHZ - Weil ich damit einfach produktiver bin. Also ich bin nicht ein Apple-Befüger, dass heißt, es musste ein Apple sein. Aber wenn ich mit Studenten, die keinen Apple, sondern einen PC haben, ist es einfach extrem mühsam, die gleiche Sachen zu machen, auch wenn die Leute sehr gut sind, und können einfach auf einer tiefen Ebene mit dem Betriebssystem arbeiten. Aber ein durchschnittlich Computerbenutzer ist ein ??? im Multimediabereich, auf jedem Fall einen Appleuser unterlegen. Und das hängt auch mit dem Betriebssytem zusammen, mit dem ganzen "graphical user interface", und mit der Philosophie da hinter. Es ist bei Apple einfach besser gelöst. Das Problem ist, dass Apple jetzt immer mehr zum einem Consumerprodukt wird, und vieles, was früher war, an Einstellung vorzunehmen, nicht mehr so einfach geht. Ich kann mich errinern, dass ich früher meinen alten Apple ???, sehr viele mit dem System arbeiten gemocht, und so ???, dass sie ganz auf mich zugeschnitten sind, und das ist heute sehr mühsam, und funktionniert heute auch nicht gut, und deswegen macht man das nicht, und muss ich wirlklich mehr ???, und dann, weil plötzlich Dinge eingebaut, die jetzt diesen ??? zwischen Iphones und Apple und Ipad, das heißt die Cloud,  und alles wird miteinander immer benutzerfreundlicher, und manchmal auch für den Poweruser ein bisschen mühsam. Das ist also der Grund, warum ich jetzt nicht mit den neusten Betriebssytem arbeite. Ich bin noch mit 10 und 9, weil das auch bei meinen Kollegen im Multimediabereich einfach stabiler ist. Also ich habe mittlerweile einen vier Jahren alt Computer, ich habe erst der Harddisk ersetzt duch eine SSD, und seitdem ist der Rechner viel??? schneller, und es funktionniert alles! Also, wenn jemand mir man sagt, einen neuen Computer für 2000 Euro zu kaufen, frage ich: wozu? Das brauche ich, alles läuft perfekt, und ich mit damit absolut zufrieden. Es geht also um die Produktivität, ich habe die Erfahrung, dass man mit dem Betriebssystem von Apple zurechtkommen kann als mit anderen Betriebssysteme.
+
+RV - "EARTH"
+
+KHZ - Ja, ich habe es aufgeklebt. Ich denke: wenn ich Werbung mache für die Apple Firma, dann muss sie mir etwas zahlen, zumindest einen Computer. Und wenn sie dass nicht macht, okay, dann mache ich keine Werbung. Außerdem stört das auch, wenn man spielt, dass immer dieser Apfel leuchtet. Diese Werbung möchte ich. Und was ich benutze war mal so ein Aufkleber in einem Kunstprojekt, den ich einfach schön fand, und auch stimmig.
+
+RV - Wie verdienen Sie Ihr Leben?
+
+KHZ - Ich habe eine Professur an der Wiener Musikakademie. Das ist mein Haupteinkommen. Dann habe ich meine freie ??? Komponist und Musiker. Und ich habe bis jetzt noch einen ??? hier im Museum für Musik??? und Konzerte. Und früher war ich auch der ???Master vom Museum. Dieser Job hört leider auf: ich hatte drei Jobs, und jetzt habe ich nur noch zwei.
+
+RV - eintrittfreie Konzerte?
+
+KHZ - Die Konzerte hier im Museum sind immer eintrittfrei. Und wenn ich ??? spiele ist es verschieden. Also ich bin nicht der Veranstalter, es hängt von dem Veranstalter ab. Es kann sein, dass man fünfzehn Euro zahlen müssen, oder es kann auch gratis sein, wenn es in einem anderen Kontext stattfindet.
+
+RV - illegale hunterladungen
+
+KHZ - Meine persönliche Haltung ist, dass ich für Sachen zahle, sei es wenn ein Musikstück mir gefällt, und ich möchte es gerne haben, oder wenn ich im Unterricht eine gewisse Aufnahme brauche, dann kaufe ich, weil ich denke, dass das einfach wichtig für die Autoren ist, das ??? bekommen. Da Sie meine Webseite kennen, wissen Sie, dass ich viele Sachen hier schenke. Also wenn jemand Partituren von mir will, dann muss er sie nicht kaufen, sondern sie können frei heruntergeladen werden. Auch die Software ist weniger ???, es gibt zwei ??? Software, die muss man Registreirungs???, ist frei. Und das mache ich ganz bewusst, weil dadurch die Schwelle, ein Stück zu verbreiten, einfach ???. Wenn man von ???, einem italienischen Komponisten, eine Partitur möchte, dann muss man ihm ein Brief schreiben, und dann muss man zwei Monate warten bis der Antwort, dann dauert es ein halbes Jahr, bis der das Material schickt, und dann ??? vielleicht doch nicht. Ich hatte selber den Verlag in Deutschland, wenn Leute eine Ansichtspartitur haben wollten von einem Stück von mir, dann hatten verlagen die Sache am Anfang nur verschickt, und die Leute haben dann auf Grund dessen gesagt: okay, das Stück machen wir, das passt, und haben das Material, die Stimment gekauft. ??? hat mittlerweile so gemacht, mein alter Verlag, dass jeder der eine Partitur von mir sehen wollte, dafür zahlen musste, und meine Ausführungen von diesem Werk sind drastig heruntergegangen. Und ich habe ??? frei gekauft, dass heißt ich habe ??? beendet, habe eine bestimmte Summe zahlen müssen, und habe alles Material bekommen von denen, das waren fünfzig Kilo Papier. Und jetzt bin ich frei, ich habe meine Sachen, jetzt habe ich alles ???. Und wenn Leute meine Sachen spielen, dann können sie sie wieder gratis herunterladen. Das ist eine Entschiedung von mir. Ich bin darauf gekommen, dass ich meine Musik dadurch besser verbreite, und ich verdiene das Geld nicht durch Papier, sondern durch die Aufführungs???. Also, wenn es ein richtiges offizielles Konzertes ist, wird über SACEM oder GEMA (***Gesellschaft für musikalische Aufführungs- und mechanische Vervielfältigungsrechte, Deutschland) oder AKM (***Staatlich genehmigte Gesellschaft der Autoren, Komponisten und Musikverleger, österreich) ??? eingehoben, und die bekomme ich da. Und wenn ich eine Partitur zum Beispiel fünfzehn Euro verrechne, die dann irgendwie ausdruckt wird, dann mit ??? laufen muss, dann ???, und einen Umschlag zu geben, eine Rechnung zu schreiben, und dann ??, Steuer anzumelden um fünfzig Prozent ??? der österreichischen Stadt. Also, das rechnet sich nicht. ??? Weise, so dass man davon Leben kann. Deshalb sage ich: alles gratis, aber die Sachen sind registriert, sind bei der SACEM angemeldet, und ich bekomme ??? dafür.
+
+[CD für Kalimba]
+
+RV - Privatleben
+
+KHZ - Ich sehe einfach, dass wenn die Vorzüge von Google und Facebook nutzt, dass man damit auch ??? verkauft. Und damit muss man sagen, entweder: das akzeptiere ich, oder: das macht nichts. Für mich  überwingen die Vorzüge. Es ist so, dass ich sehr viel veröffentliche. Mein Facebook ist nicht ein privates Facebook, wo man Familiensachen oder private Dingen schreibt, sondern nur künstliche Sachen, dit mit meiner künstlichen Arbeit zu tun haben. Und da bin ich ein ??? das verbreitet. Aber ich weiss auch natürlich, dass jede Suchenfrage die ich mache von Google registriert wird. Die einzige Möglichkeit ist, sich denen zu verweigern. Und ich ???, die sagen, sie wollen keinen Computer, kein Handy... aber die Vorzüge sind so groß, und ich brauche sie auch so, dass ich so zu sagen meine Seele verkauft habe. Für mich macht das ??? keine wirlklichen Probleme. Ich bin aber schon vorsichtig, also, im Bezug auf Poste zum Beispiel. Ich überlege ganz genau, was ich schreibe, und wie ich es formuliere, und mache nie ???. Mir ist schon klar, dass ich alles, das ich im Internet mache, irgendwie Teil der Internet??? wird, und irgendwo, auch wenn es jetzt nicht aktuell jemand sieht, aber das kann ???, wieder herausgefunden werden. Es gibt Dinge, also Beispiele von einem deutschen Musiker, der in Amerika eingereist ist, und der ??? festgenommen haben, und sie wussten von fünf Minuten alles über ihm, indem sie seine ganze sozialen Netzwerke ??? haben mit spezialen Algorithmen, und sofort gewusst, mit wem man Kontakte hat, und wie viele mit wem man telefoniert, und so weiter. Das ist eine Tatsache, die ich kann nicht ???. Ich bin mit Clouddiensten sehr vorsichtig, ich verwende sie auch, aber nicht viele Sachen.
+
+RV - AI
+
+KHZ - Im Künsterlischen überhaupt nicht. Ich finde es interessant, ich lese auch Zeitschrifften, wo darüber geschrieben wird, aber im Musikalischen interessiert mich das nicht. Also "Artificial Intelligence" habe ich im künstlerischen Bereich nie interessant gefunden. Weil, dann frage ich mich, was meine Rolle als Künstler ist... Zum Beispiel die Lexicon-Sonate hat nichts mit AI zu tun, sie ist absolut dumm! Aber sie macht deswegen etwas Schönes, weil ich als Erfinder des Programs Ideen von mir realisieren konnte, auch wenn der Computer so zu sagen das macht, was ich ihm vorgeschlagen habe, aber auch nicht vor sich auf Dinge erfindet.
+
+KHZ - Videospiele
+
+RV - Es ist eigentlich interessant, aber ich habe damit nor nichts gemacht. Also, keine Ahnung. Wir haben schon ??? kontaktiert, der sagt: ja, es würde unglaublich passen, also die ??? die ich habe, lassen sich gut verwenden. Aber es hat sie noch keine konkrete Auftragsituation. Aber generell würde es mich interessieren. Ich bin zwar kein Videospieler, aber ich sehe einfach wie toll diese Welte jetzt geborgen sind, also das ist absolut faszinierend. Und auch diese Interaktion, das man so zu sagen nicht im Film findet. Aber ich habe überhaupt keine Ambition für Videospiele. Mein erster Computer war dieser Atari, und es gab zwei Sachen darauf: Basic und auch ein "Textadventure". Und dieses Textadventure habe ich dann gespielt, und ich bin total süchtig geworden, und habe es dann gelöscht, und gesagt: ich werde nie mehr so was machen, weil die Gefaht sehr groß ist, dass man sich dadrinner verliert, und stattdessen, habe ich begonnen, Computeralgorithmen für Musik zu erfinden!
+
+RV - 
+
+KHZ - 
