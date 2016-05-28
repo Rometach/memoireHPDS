@@ -1,18 +1,25 @@
 \documentclass[a4paper,12pt]{article}
 
+% PACKAGES
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage{lmodern}
+\usepackage[french]{babel}
+\usepackage{csquotes}
+\usepackage[notes,backend=biber]{biblatex-chicago}
+\bibliography{biblio/mabiblio.bib}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amscd}
+\usepackage{lmodern}
 
-\input{preambules/packages.tex}
-\input{preambules/divers.tex}
-\input{preambules/algo.tex}
-\include{preambules/perso.tex}
-\include{preambules/dim.tex}
-
-
+% MISE EN PAGE
 \setlength{\voffset}{-3.75cm}
 \setlength{\hoffset}{-2.6cm}
 \setlength{\oddsidemargin}{2.5cm} % OBLIGATOIRE
 \setlength{\evensidemargin}{2.5cm} % OBLIGATOIRE
-\setlength{\topmargin}{3.5cm} % OBLIGATOIRE !!!
+\setlength{\topmargin}{2.5cm} % OBLIGATOIRE !!!
 \setlength{\headheight}{0in}
 \setlength{\headsep}{0in}
 \setlength{\topskip}{0in}
@@ -24,6 +31,24 @@
 \flushbottom
 \setcounter{page}{1}
 \setcounter{tocdepth}{2}
+\usepackage{helvet} % OBLIGATOIRE
+\renewcommand{\familydefault}{\sfdefault} % OBLIGATOIRE
+
+% PERSO
+\newcommand{\guill}[1]{«~#1~»}
+\newcommand{\eme}[0]{$^\text{e}$}
+\newcommand{\Ier}[0]{I$^\text{er}$} \newcommand{\IIeme}[0]{II\eme} \newcommand{\IIIeme}[0]{III\eme} \newcommand{\IVeme}[0]{IV\eme} \newcommand{\Veme}[0]{V\eme} \newcommand{\VIeme}[0]{VI\eme} \newcommand{\VIIeme}[0]{VII\eme} \newcommand{\VIIIeme}[0]{VIII\eme} \newcommand{\IXeme}[0]{IX\eme} \newcommand{\Xeme}[0]{X\eme} \newcommand{\XIeme}[0]{XI\eme} \newcommand{\XIIeme}[0]{XII\eme} \newcommand{\XIIIeme}[0]{XIII\eme} \newcommand{\XIVeme}[0]{XIV\eme} \newcommand{\XVeme}[0]{XV\eme} \newcommand{\XVIeme}[0]{XVI\eme} \newcommand{\XVIIeme}[0]{XVII\eme} \newcommand{\XVIIIeme}[0]{XVIII\eme} \newcommand{\XIXeme}[0]{XIX\eme} \newcommand{\XXeme}[0]{XX\eme} \newcommand{\XXIeme}[0]{XXI\eme}
+\newcommand{\bigO}[1]{\mathcal O\left( #1 \right)}
+\newcommand{\bigOmega}[1]{\Omega\left( #1 \right)}
+\newcommand{\bigTheta}[1]{\Theta\left( #1 \right)}
+\newcommand{\zitat}[2]{\#Citation#1(#2)\#}
+
+
+
+
+
+
+
 
 
 
@@ -38,13 +63,330 @@
 \maketitle
 \newpage
 
-Le mémoire doit contenir essentiellement de travaux de recherche originaux et ne doit être un document de synthèse relatant des travaux d’autres chercheurs. Sous une forme ou une autre, doivent donc être dégagés: \\
-* l’état de la recherche sur le sujet avant le début de celle-ci, \\
-* La thèse (l’argument positif central que vous défendez dans votre mémoire et lors
-de votre soutenance). \\
-* la problématique et les objectifs, \\
-* une réflexion sur ce qui a été fait et ce qui reste à faire. \\
-D’une manière générale et dans tout le mémoire, il faut distinguer clairement ce qui est rappelé pour la clarté de l’exposition, de ce qui est un apport novateur. Toutes les citations doivent renvoyer à une référence précise (y compris la page), en étant lucide vis-à-vis des différents types de sources. De façon générale, toutes les affirmations doivent être étayées (comme si l’avocat de la partie adverse cherchait la faille dans votre enquête), qu’il s’agisse d’un mémoire de didactique ou d’histoire des sciences.
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+
+\section{Enjeux et présentation}
+
+\subsection*{Enjeux}
+
+\zitat{L'ordinateur, pendant longtemps, a été la seule vitrine de l'informatique aux yeux du grand public. Chacun sait mieux maintenant que ce domaine comporte de multiples dimensions : les enjeux infustriels, l'univers complexe de la programmation et des langages, les foisonnements des différesnts usages, mais aussi l'affirmation que la logique et une certaine forme de rationalité dont désormais partie de noter culture contemporaine [\dots]
+Désormais de très larges publics sont directement concernés par l'informatique. La question qui est aurjoud'hui d'actualité en matières d'informatique est celle de la maîtrise de enjeux que soulève son insertion dans la vie quotidienne. Voilà pourquoi on parle tant de \guill{culture informatique}.}
+{Breton, avant-propos}
+
+\zitat{The USA-based curator Christiane Paul organized a pair of related process-oriented shows, both called \emph{CODeDOC}, at the Whitney Museum of American Art in New York (2002) and at Ars Electronica (2003) to explore the conceptual and aesthetic intricacies of code-based art. Artists in each exhibition were given a common challenge for example, to animate three circles connected by lines) and then invited to generate code-based responses. Paul explained her motivations this way in the online catalogue of the Ars Electronica show: \guill{I wanted to raise questions about software art as artistic practice\dots~One intent of the project certainly was to memystify the notion of code as a mysterious, hidden driving force and to reveal the code to the viewer. Among the questions that seemed important to address or clarify were the following: do \emph{signature}, \emph{voice}, and aesthetics of an artist manifest themselbes equally in the written code and its exxecuted results? Will reading the source code enhance the perception of the word? Does it in fact add anything at all or just create an emphasis on \emph{technicalities} that is unnecessary, alienating, and obscures the work?}}
+{Art+Science Now, p. 161}
+
+\zitat{Les débuts de cette \emph{computer music} nous emmènent donc bien loin d'une expérience du temps réel\dots
+Manoury : C'était, en effet, un retour au temps différé. À l'époque où les synthétiseurs commençaient à être utilisés pour les tâches très précises, l'intérêt de l'informatique est rapidement devenu manifeste. Cependant, ce n'est qu'au début des années quatre-ving qu'ont été conçus les premiers ordinateurs suffisamment rapides pour effectuer les calculs en temps réel --- disons suffisamment rapidement pour que l'oreille ne perçoive pas le temps de calcul. Le prototype le plus connu est la 4X. C'était la première fois que l'on pouvait atteindre un \guill{temps réel} numérique, c'est-à-dire inscriptible sur une matière, et cela ouvrait immédiatement la possibilité d'interagir directement avec le jeu instrumental, de se synchroniser avec lui, d'effectuer les calculs au moment même du concert, avec le son du concert et non plus à partir d'une source figée.}
+{Manoury, p. ???}
+
+\subsection*{Musique et informatique}
+
+\subsection{Musique algorithmique}
+
+
+\section{Portrait de Karlheinz Essl}
+
+\subsection{Parcours}
+
+\zitat{... with complete autonomy since without public funding
+... the famous names of 20th-century music with a clear inclination towards the composers that happily pursued the spirit of modernism even through the post-modern era. Hardly a coincidence, since kHz considers himself as belonging to that ilk.}
+{An Extended Composer’s Desk - Composer Karlheinz Essl as the music curator of the Essl Museum}
+
+\zitat{Schon als Kind haben mich Klänge interessiert. Mitte der 70er Jahre, seit der Beschäftigung mit Stockhausen rührt auch mein Interesse für elektronische Musik her. Damals gab es bereits Synthesizer: faszinierend, aber unerschwinglich. Ich träumte davon, wenn ich einmal ganz viel Geld hätte, dann kaufe ich mir einen Synthesizer. Dazu ist es nicht gekommen, aber ich habe damals selbst Elektronik gebastelt und gelötet, habe mir kleine Schaltkreise gebaut mit Tongeneratoren und habe so eine Art Synthesizer gemacht, der natürlich nur ganz einfach war. Aber mit dem haben wir kräftig herumgequietscht und Aufnahmen gemacht, und dann mit zwei Kassettenrekordern quasi Multitrack-Recording simuliert - ein erster Anfang. Während meines Studiums der Musikwissenschaft bin ich gemeinsam mit meinen Freund Gerhard Eckel zum "Institut für Schallforschung" an die Akademie der Wissenschaften gekommen. Werner Deutsch hat unsere Neugier gefördert und wir haben Vieles ausprobiert und Algorithmen entwickelt, wie man Musik komponieren kann, wenn am Computer kompositorische Strategien umgesetzt werden.}
+{Rückblick / Vorschau - Der Komponist Karlheinz Essl im Gespräch mit Annelies Kühnelt}	
+
+\subsection{Influences}
+
+\zitat{Le paradigme adornien d'une négativité en acte dans l'œuvre d'art se lit comme une injonction pour l'art moderne, et en partie pour l'art contmeporain, d'avoir à intégrer l'action impérative de l'avant-garde. L'art se doit d'être critique --- traduisons : avant-gardiste --- et cet impératif s'ajoute à ceux déjà institués par les fondations précédentes.}
+{Les théories de l'art, p. 59}
+
+\zitat{\emph{Studie I} (1953) et \emph{Studie II} (1954) abordent les ressources de l'\guill{œuvre ouverte} dite aussi \guill{œuvre mobile}, tout en explorant les possibilités de l'électroacoustique. (Stockhausen)}
+{Wodon, p. ???}
+
+\zitat{La musique spatiale (type de Recherche)}
+{Wodon, p. 435}
+
+\zitat{La musique électronique \\
+En 1951, Herbert Eimert (1897-1972), également musicologue, fonde le studio pour la musique électronique de la radio de Cologne (\emph{Westdeutscher Rundfunk}) afin de travailler et de contrôler les sons émis par des appareils électorniques. Ce studio est fréquenté par Karlheinz Stockhausen et Henri Pousseur. Cette seconde avant-garde y voit les moyens d'appréhender la totalité du spectre sonore avec une nouvelle précision du temps.}
+{Wodon, p. 441}
+
+\zitat{Dans les années 1990, ses [François-Bernard Mâche (1935-)] œuvres mixtes se rapporchent de l'esthétique de l'hybride en recourant à des moyens informatiques pour le mélange des sons de synthèse à ceux des instruments traditionnels.}
+{Wodon, p. 443}
+
+\zitat{Le collage, la citation
+Après Mahler et Stravinsky, considérés comme des instifateurs du collage et de la citation, il s'agit d'une compilation d'extrait musicaux ou d'un assemblage de fragments de matériaux différents effectués grâce aux possibilités offertes par les studios radiophoniques et la musique électronique.}
+{Wodon, p. ???}
+
+\zitat{Schönberg dealt a blow to tonality and Cage to the notion of what constitutes a work --- opening the way to the notion of \emph{work in progress} or \emph{open-ended} works.}
+{Andrew Gerzso, New computational paradigms for computer music, p. 1}
+
+\zitat{It is interesting to note that we have with Cage two ways of using randomness for music composition. One, inhreited from Duchamp, is what can be called \emph{internal chance}: randomness is used at composition time to determine the score, which is then written and closed. The other can be called \emph{external chance}: the score is open to real-time chance operation and external perturbation. In that respect, \emph{4'33''} is certainly the best and minimal example of external chance.}
+{Philippe Codognet, New computational paradigms for computer music, p. 160}
+
+\zitat{Je dois avouer une chose : je n'aime rien tant que les musiques qui offrent des fluctuations de temps et d'épaisseur. [\dots] Des musiques dont le temps est proche du temps que l'on vit, avec des intensités et des poids différents, la singularité impérieuse du moment qui ne se reproduira jamais plus, des temps organiques pour tout dire.}
+{La musique du temps réel, p. 74}
+
+\zitat{\guill{L'œuvre d'art est un labyrinthe, où à chaque point, le connaisseur sait trouver l'entrée et la sortie sans qu'il soit guidé par un fil rouge. Plus les veines sont serrées et entrelacées, et plus sûrement il survole n'importe quel chemin vers le but. Les faux chemins, si faux chemins il y a dans l'œuvre d'art, le conduiraient au bon endroit, et chaque tournant, aussi divergent qu'il soit, le ramène dans la direction du contenu essentiel}}
+{Arnold Schönberg, Aphorismen, in Die Musik, 9e année, Berlin 1909-1910, fasc. IV, pp. 159 sq.
+Cité par Adorno p. 123-124}
+
+\zitat{Musik findet deshalb nicht allein im Konzertsaal, sondern vor allem im Kopf statt. Die Erkenntnis, dass die Welt nicht nur die Abbildung einer äußeren Wirklichkeit ist, sondern erst durch individuelle Wahrnehmungsarbeit konstruiert wird, führt zu radikalen Konsequenzen für die musikalische Komposition, die letztendlich den Hörer zum Mitschöpfer macht.}
+{sine fine... Unendliche Musik}
+
+\zitat{"die kompositorische Beherrschung des Zufalls ein zentrales Problem heutigen Komponierens" [G. M. Koenig, "Kommentar", S. 81]}
+{Zur Theorie der Seriellen Musik in Strukturgeneratoren - Algorithmische Komposition in Echtzeit}
+
+\zitat{Ich war damals ein junger Student, habe bei Friedrich Cerha Komposition studiert und steckte in einer massiven Krise, weil ich eigentlich von einer anderen Kompositionsauffassung herkam: Hindemith, Genzmer, Neoklassizismus waren damals für mich wichtig.}
+{Elektronische Musik / Komposition / Improvisation - Karlheinz Essl im Gespräch mit Silvia Pagano}
+
+\subsection{Esthétique}
+
+\zitat{Many digital instruments can be attached to inexpensive personal computers. The proliferation of inexpensive computers puts the capability of intelligent instruments within the reach of virtually every musician who wants them.}
+{Composers and the computer, p. xvii}
+
+\zitat{I think it [improvisation] is a healthy situation overall. Many people are trying to learn to improvise, because it has traditionally been a wonderful way to learn about the possibilities of making music. There is a lot of interesting activity among improvisers --- new methods of strcturing, advanced ideas of how to integrate scores with improvisation, interesting new souunds, extended notions of what an \emph{instrument} is, what a \emph{virtuoso} is, what a performer's role is.}
+{George Lewis in Composers and the computer, p. 81}
+
+\zitat{[Tristan] Perich tells me that his compositions spring from improvisation, the mind at play --- usually at the piano, which is his main instrument. He constrats this with other composers who use algorithms, which introduce complications. \guill{There's a difference between process being part of the inspiration or the tool set that you have, and process being a determinant.} He prefers the former.}
+{Composers and the computer, p. 264}
+
+\zitat{+ description du processus de composition}
+{Composing in a Changing Society - How does a composition come into existence ?}
+
+\zitat{Essl's compositional output spans every possible medium: orchestral, chamber, musical theater/performance, live electronics, electronic computer music, real-time and meta compositions, meta-instruments, installations and soundscapes, film music, visuals, text compositions and works for solo instruments. Always looking to expand his creative output, Essl frequently collaborates with artists from other fields, including choreographers, dancers, visual artists, video artists, architects, poets, authors, and graffiti artists.}
+{Julieanne Klein - A Portrait of the Composer Karlheinz Essl}
+
+\zitat{weil wir ja immer noch über Algorithmen sprechen. Dieser Begriff hat nichts mit Rhythmen zu tun, sondern ist nach diesem Mathematiker al-Chwarizmi benannt, der verschiedene mathematische Konzepte eingeführt hat. Diese sind auch die Grundlage meines Musikdenkens, Musik nicht nur als ein sinnliches Erlebnis zu sehen, sondern als etwas, das viele Tiefendimensionen hat, die sich in Form von Modellen ausdrücken lassen.}
+{OMNIA IN OMNIBUS: Behind the Scenes - Karlheinz Essl im Gespräch mit Katharina Hötzenecker}
+
+\zitat{Ohne Computer wäre meine Arbeit schwer vorstellbar, selbst wenn ich Instrumentalmusik mache; dadurch war es mir möglich, aus meinem kompositorischen Elfenbeinturm auszubrechen.}
+{Elektronische Musik / Komposition / Improvisation - Karlheinz Essl im Gespräch mit Silvia Pagano}
+
+\zitat{Man sollte sich zunächst die Frage stellen, was denn ein Algorithmus ist. Da gibt es klassische Definitionen, die eher aus den Ingenieurswissenschaften kommen, die beschreiben den Algorithmus als eine Art Kochrezept um schnell zu einer Lösung zu kommen. Dies ist ein möglicher Ansatz, aber es gibt noch einen weiteren, den ich interessanter finde. Dort begreift man einen Algorithmus mehr als Definition eines Metamodells, aus dem heraus durch Veränderung der Systemparameter verschiedenste Resultate entstehen. Diesen Algorithmusbegriff verwende ich selber und finde ihn auch in Werken und Arbeiten von Gottfried Michael Koenig und Karlheinz Stockhausen.}
+{Intuition, Automation, Entscheidung. Der Komponist im Prozess algorithmischer Komposition}
+
+
+
+\section{Étude de la \emph{Realtime composition library} (RTC-lib)}
+
+\subsection{Introduction}
+
+\zitat{Mais le temps réel est une notion technologique avant d'être une notion musicale. C'est en fait une illusion. Le temps réel n'existe jamais dans la réalité technologique parce qu'une machine met toujours un certain temps, même si celui-ci est extrêmement bref, pour effectuer ses calculs.}
+{La musique du temps réel, p. 41}
+
+\zitat{En musique, on parle de temps réel à partir du moment où le laps de temps entre le début du calcul et la livraison du résultat d'une opération informatique est suffisamment bref pour ne pas être perçu.}
+{La musique du temps réel, p. 42}
+
+\zitat{Le grand avantage du temps réel, ce n'est pas un gain de temps pour le compositeur --- au contraire cela représente une difficulté supplémentaire à maîtriser --- mais c'est qu'il intègre l'interprétation dans la musique électronique ; auparavant ces deux domaines restaient étrangers l'un à l'autre.}
+{La musique du temps réel, p. 44-45}
+
+\zitat{Weil man sich beim Improvisieren nicht (wie beim Komponieren) "out of time" befindet, sondern mitten im Zeitablauf steckt, entstehen aus dieser Verantwortung und aus diesem Zwang heraus Situationen, die man als Komponist am Schreibtisch nicht planen kann.}
+{Improvisation über "Improvisation" - Karlheinz Essl \& Jack Hauser}
+
+\zitat{My formal thinking takes place in a bipolar field of tension, namely that between work and process. (…) For me, the most captivating aspect of composing is the reconciliation of these opposites, though each time in a different way.}
+{Composing in a Changing Society - How does a composition come into existence ?}
+
+\zitat{I immediately felt in love with it for it offered the possibility of realtime processing and interactivity. (In LOGO, it took many hours to calculate a score list which I had to transcribe into of musical notation in order to analyze it - a very time-consuming procedure).}
+{RTC-lib}
+
+\subsection{Présentation de la bibliothèque}
+
+\subsection{Analyse}
+
+\zitat{Most of these objects are geared towards straightforward processing of data. By using these specialized objects together in a patch, programming becomes much more clear and easy. Many functions that are often useful in algorithmic composition are provided with this library - therefore the composer could concentrate rather on the composition than the programming aspects.}
+{RTC-lib}
+
+\subsection{La \emph{Lexikon-Sonate}}
+
+\zitat{\dots~l'œuvre qui nous est restituée chaque fois dans sa totalité, n'en reste pas moins chaque fois incomplète. Est-ce un hasard si tutelles poétiques sont contmeporaines de la loi physique de \emph{complémentarité}, selon laquelle on ne peut montrer simultanément les différents comportements d'une particule élémentaire et doit, pour les décrire, utiliser divers modèles qui \guill{sont justes lorsqu'on les utilise à bon escient, mais se contredisent entre eux et dont on dit, par suite, qu'ils sont réciproquement complémentaire} ? Ne peut-on dire pour ces œuvres d'art, comme fait le savant pour la situation expérimentale, que la connaissance incomplète d'un système est une composante essentielle de sa formulation ?}
+{L'Œuvre ouverte, p. 30}
+
+\zitat{Aujourd'hui, l'accent est mis sur le processus, sur la possibilité de saisir \emph{plusieurs ordres}. Dans la réception d'un message structuré de façon ouverte, l'\emph{attente} implique moins une \emph{prévision de l'attendu} qu'une \emph{attente de l'imprévu}.}
+{L'Œuvre ouverte, p. 105}
+
+\zitat{Contrainte par la logique de ses propres faits, la musique, en un mouvement critique, a dissous l'idée d'œuvre achevée et rompu avec le public. [\dots] Les seules œuvres qui comptent aujourd'hui sont celles qui ne sont plus des \guill{œuvres}.}
+{Adorno, p. 41-42}
+
+\zitat{I want to challenge the listener not just to consume the piece but by listening becoming something like a co-creator, being a partner of the composer and the composition itself.}
+{Profile Karlheinz Essl - Karlheinz Essl in conversation with Joanna King}
+
+\zitat{Die Lexikon-Sonate ist voll absurder Situationen; die isolierten Musiksprachfetzen aus der Geschichte der Klaviermusik werden in immer neuen ZUFALLSNACHBARSCHAFTEN zusammengesetzt; sie rufen Erinnerungen hervor, die aber aus dem Kontext gerissen und in eine irrationale Struktur eingebunden werden.}
+{Irreal-Enzyklopädie - Bernhard Günther - Einer metaphorischen Reise zur Lexikon-Sonate von Karlheinz Essl}
+
+\zitat{Einer der Ausgangspunkt ist meine Hassliebe zu diesem Instrument, dem Klavier. Ich wurde mit sieben Jahren gezwungen, Klavier zu lernen; ich wollte Blockflöte spielen. Trotzdem war ich am Klavier nie gut. Es war immer frustrierend, zu sehen, dass ich das, was ich im Kopf hatte, auf den Tasten nicht adäquat umsetzen konnte. Meine ersten Kompositionversuche waren natürlich trotzdem Klavierstücke, aber ich habe sonst kein einziges Klavierstück geschrieben bis jetzt, und ich kann mir auch nicht vorstellen, ein Klavierstück zu schreiben. Das einzige, was mir möglich war: Ein Klavierstück zu machen, das ganz absurde Kriterien erfüllt.}
+{Der Wiener Komponist Karlheinz Essl (Hanno Ehrler)}
+
+\zitat{Ein Computer wird nie müde. Mit dem Computer kann man eine Musik in Szene setzen, die nie aufhört, das geht mit Musikern natürlich nicht.}
+{Elektronische Musik / Komposition / Improvisation - Karlheinz Essl im Gespräch mit Silvia Pagano}
+
+\subsection{Conclusion : Essl et l'ordinateur}
+
+\zitat{Essl nutzt die heutigen Möglichkeiten der TECHNIK als Mittel, musikalische Möglichkeitsstrukturen zu schaffen, die in der Lage sind, unbeliebig Anderes zu realisieren als die Vorstellung des Komponisten.}
+{Irreal-Enzyklopädie - Bernhard Günther - Einer metaphorischen Reise zur Lexikon-Sonate von Karlheinz Essl}
+
+\zitat{In meinem Aufsatz Computer Aided Composition, den ich 1991 veröffentlicht habe, geht es genau um die Frage, was der Computer dem Komponisten zurückgibt. Darin habe ich zwei Sachen postuliert. Erstens: Wir müssen den Computer selber programmieren, d. h. wir müssen unsere eigenen persönlichen individuellen kompositorischen Ideen und Fragestellungen in Form von Computerprogrammen formulieren. Zweitens: Der Computer wird dadurch zum Werkzeug, das diese Regelsysteme (die ja nicht bloß abstrakt sind, sondern von kompositorischen Ideen ausgehen) anwendet, dabei Ergebnisse erzeugt und uns diese dann widerspiegelt. In den vom Computer errechneten Resultaten erkennen wir die Tragweite unserer kompositorischen Ideen. Ich vergleiche den Computer (bzw. die Software, die auf ihm läuft) gerne mit einem Spiegel, der das, was wir uns vorstellen, sehr rasch realisieren kann.}
+{Intuition, Automation, Entscheidung. Der Komponist im Prozess algorithmischer Komposition}
+
+\section{Démocratisation ?}
+
+\zitat{Le poète le plus ésotérique ou le théologien le plus abstrait sont beaucoup plus concernés que le scientifique par l'approbation des non-spécialistes, bien qu'ils puissent être encore moins concernés que lui par l'approbation en général.}
+{Kuhn}
+
+\zitat{À mesure que l'abstraction gagne, les frontières géographiques s'élargissent, la poésie n'a plus de pays, elle est prête pour le voyage dans l'universel.}
+{Les théories de l'art, p. 25}
+
+\zitat{L'invention du micro-ordinateur par les radicaux californiens, sur laquelle nous allons revenir, avait pour obkectif explicite de battre en vrèche la centralisation et la possession des précieuses \guill{informations} par quelques privilégiés. La \guill{guérilla} micro-informatique a en partie porté ses fruits. Elle a constitué une sorte de révolution dans la révolution et son radicalisme a été en grande partie à l'origine de la \guill{culture informatique}, partagée dans un large public et facteur de démocratisation de la vie sociale et du savoir.}
+{Breton, intro chap 11}
+
+\zitat{L'informatique de la deuxième période, qui avait été considérée comme une menace pour les libertés, a acquis avec le micro-ordinateur une image beaucoup plus \guill{conviviale}. Pour les générations nées dans les années soixante, informatique et liberté sont désormais synonymes. La société de l'information centralisée devient progressivement une société de communication, une société de réseaux.}
+{Breton, p. 206}
+
+\zitat{L'espace du réseau met en jeu un type de liaison multimodale entre les utilisateurs sans précédent : la liaison de \emph{tous vers tous}. Chaque internaute est à la fois récepteur et émetteur. Il peut recevoir des messages de n'importe quel(s) autre(s) émetteur(s) et, à son tour, lui (leur) adresser des messages, messages eux-mêmes mutlimodaux, composés de texxtes, d'images (fixees ou mobiles) et parfois de sons. Il s'agit d'un système de communication totalement différent des médias de masse (radio, cinéma, télévision), qui fonctionnent sur le type de liaison \emph{un vers tous}, où le retour immédiat et interactif de tous vers un n'est pas possible.}
+{L'art numérique, p. 63}
+
+\zitat{L'ambitieuse volonté d'une communication universelle est contrecarrée par la réalité. Le public attendu, innombrable, multi et transculturel, reste encore un public de spécialistes très liés au monde de l'art et très infentifiables socialement. Les \guill{communautés virtuelles} sont en fait des microcosmes assez fermés, avec déjà leurs traditions et leurs orthodoxies. De sorte qu'il est légitime de s'interroger sur les limites d'un art en réseaux et, au-delà, sur les limites du paradigme réticulaire aujourd'hui dominant, qu'on pourrait décrire comme un paradigme de l'\guill{horizontalité}.}
+{L'art numérique, p. 79}
+
+\zitat{L'Internet apparaît en tout cas comme le lieu de cette mémoire à venir, comme musée virtuel global. C'est à la fois un \emph{nouveau support}, qui étend considérablement les possibilités de diffusion et de conservation de la mémoire, et un \emph{nouvel enjeu} de la mémoire, un puissant vecteur de dynamisation du musée dans sa virtualisation, qui permettrait de compenser la muséification de certains de nos espaces physiques (urbains ou ruraux).}
+{L'art numérique, p. 231}
+
+\zitat{The development of these digital synthetisers is extremely promising. They help bring together the generality of digital sound synthetis with appealing real-time possibilities. Until recently, it was possible to use the computer for music only in large institutions. But powerful music systems may become available at low price, and this new economic situation will completely change the status of digital electronic music. Digital systems are becoming private tools for the independent composer.}
+{???}
+
+\zitat{Vom Bewohner eines Elfenbeinturmes bin ich peu-à-peu zum global citizen geworden, dessen Tätigkeit sich nicht mehr allein im Verfertigen komplexer Partituren erschöpft. Durch den Kontakt mit Gleichgesinnten, der zunächst hauptsächlich über Mailing-Lists ausgetragen wurde, reiften in mir neue Ideen, die den für mich bislang gültigen Werkcharakter von Musik immer fragwürdiger werden ließen.
+Der nicht-hierarchische Charakter des Internets mit seiner rhizomatischen Struktur zeigt vielfache Entsprechungen zu meiner persönlichen Sichtweise, Musik als kommunikatives Netzwerk aufzufassen und dieses auch sinnlich erfahrbar zu machen.}
+{net.music}
+
+\zitat{Das sehe ich mittlerweile auch ganz deutlich bei eurem Performance-Projekt LUX FLUX. Das ist sehr offensichtlich und hat mich sehr beeindruckt. Für den Betrachter wird klar, das ihr mit einem Alphabet sprecht, das begreifbar ist.}
+{Improvisation über "Improvisation" - Karlheinz Essl \& Jack Hauser}
+
+\zitat{Thus only musicians may really experience the formal openness of a musical text since they are confronted with the alternatives and can take decisions while playing.}
+{Technological Musical Artifacts (Gerhard Eckel)}
+
+\zitat{+ analyse de la Homepage}
+{Der Wiener Komponist Karlheinz Essl (Hanno Ehrler)}
+
+\zitat{GF: Do you think that the net has a specific musical potential? KHE: From my personal experience, I think that the most important thing is the communication aspect.}
+{NET Music - Karlheinz Essl talking to Golo Föllmer}
+
+\zitat{Ich wollte ganz bewusst ein sehr knappes Material verwenden, das auch leicht wiedererkennbar ist. Diese Fanfare ist ja im Grunde ein in uns eingebranntes Zeichen, dass wir als Bestandteil unserer Kultur erkennen, weil man es schon so oft gehört hat. Man denke nur an den Film Apocalypse Now. Es gibt bestimmte signalhafte Musiken, wie auch die Fünfte Beethovens; dieses Kopfmotiv, das kennt man einfach. Das heißt, das braucht man nur anspielen und jeder weiß sofort, was das ist.}
+{Wagner in Translation - Karlheinz Essl im Interview mit Annegret Huber}
+
+\zitat{When not composing himself, he is busy inspiring a generation of younger composers in his position as Professor of Composition at the Vienna University of Music and Performing Arts. Beyond this, Essl is also influential in the cultivation and dissemination of new art, particularly seen in his co-direction of the family-run Essl Museum, a modern art museum based outside of Vienna. Here Essl has fueled a series of innovative programs that expand the boundaries of sonic landscape; educating audiences, inspiring young composers, and erasing the bourgeois line so often perceived in traditionally classical venues.}
+{Julieanne Klein - A Portrait of the Composer Karlheinz Essl}
+
+\zitat{Ich mache keine abstrakte Musik, die man nur versteht, wenn man eine spezielle Ausbildung hat, oder Wissen oder viel Erfahrung. Mir geht es vor allem um das Unmittelbare, das Ekstatische, das sich demjenigen erschließt, der bereit ist sich dem hinzugeben. Ich habe die Erfahrung gemacht, dass es nicht darauf ankommt, ob man seinen Schönberg oder Webern studiert hat, seinen Mozart oder Bach. Wenn man die Bereitschaft hat sich zu öffnen, dann kann man sehr viel erleben. Ich glaube, dass das Hören immer ein interaktiver Prozess ist, letztlich würde ich sogar sagen, dass die Musik im Hörer selbst entsteht - durch den Akt des Hörens.}
+{Rückblick / Vorschau - Der Komponist Karlheinz Essl im Gespräch mit Annelies Kühnelt}
+
+\zitat{Deshalb glaube ich, dass das Wissen darum für den Hörer nicht unbedingt nötig ist. Die Stücke sollten deshalb sinnlich, also ganz im Bereich des Klanglichen, rezipiert werden. In beiden Fällen gehe ich jedoch vom Hören aus: die Strukturgeneratoren (ob sie nun die Lexikon-Sonate, Amazing Maze oder Champ d'Action betreffen) gehen immer von Wahrnehmungsphänomenen aus, niemals von abstrakten oder gar mathematischen Prämissen. Deshalb meine ich auch, dass sich meine Musik am besten durch offenes, bereitwilliges und vorbehaltloses Hören erschließt, in einem aktiven Wahrnehmungsprozess, in dem sich der Hörer aufgrund seiner jeweiligen persönlichen Voraussetzungen sozusagen seine eigene Fassung der Komposition mitkomponiert. Hören wird hier nicht zum bloßen Abbilden und Entziffern einer vorgegebenen Wirklichkeit, sondern zu einer schöpferischen Konstruktion.}
+{Karlheinz Essl / Bernhard Günther - Realtime Composition - Musik diesseits der Schrift}
+
+\zitat{Du brauchst nur ein Websearch machen. Mittlerweile tauche ich auch immer wieder in Blogs auf: „Da gibt’s übrigens so einen verrückten Typen in Wien, der macht irre Sachen. Da gibt’s fLOW und den REplay PLAYer...“ oder sie sprechen von einer „eine schattenhafte Figur...“. Das kommt nicht unbedingt aus dem Bereich der Hochkultur, wie wenn man in der Carnegie Hall eine Aufführung hat. Aber es vermittelt einem das Gefühl, dass man irgendwie präsent ist. [...] Wohingegen die Sache mit Internet unheimlich schnell reagiert und sich besser verbreitet und nicht von wenigen Zentren aus gesteuert wird.}
+{Elektronische Musik / Komposition / Improvisation - Karlheinz Essl im Gespräch mit Silvia Pagano}
+
+\zitat{JF: Curtis Roads behauptet: „Some composers who use formal methods feel that what the listener hears is secondary. They take professional satisfaction in knowing that their structures are logically generated, whether or not they are perceived as such.” Welchen Stellenwert hat für Sie eine „strukturelle Konsistenz“, die Ihnen der Algorithmus liefert? In welchem Verhältnis stehen für Sie die daraus resultierenden klanglichen Phänomene? / KHE: Das, was Curtis Roads anspricht, hat natürlich eine tiefe Wahrheit und das ist auch mein Eindruck, wenn ich auf Computermusik-Konferenzen war. Dort präsentieren junge Computerkids, die meist mehr aus den Ingenieurs-wissenschaften als aus der Musik kommen, stolz ihre Programme und Algorithmen, die sie dann verklanglichen. Meistens klingt das Ganze dann ziemlich beschissen, weil sie irgendwelche MIDI-Instrumente verwenden oder gar nicht auf den Klang achten. Sie sind halt stolz, dass sie diese wunderbare Struktur, die sie gefunden haben, auch verklanglichen können. Dagegen bin ich natürlich auch. [...] Ich glaube der Algorithmus darf nie ein sich selbst genügender Fetisch werden, auf dessen Logizität man sich beruft und sagt: Diese Struktur ist so schön und alles ist mathematisch in Beziehung und damit stimmig. Es muss immer an der Wirklichkeit und an unserer Hörerfahrung getestet sein. Deswegen denke ich mir, dass der Hörer eine sehr wichtige Instanz ist. Wenn ich komponiere bin ich selbst mein erster Hörer und teste immer, was der Algorithmus ausgibt und ob das überhaupt relevant für mein Hören ist.}
+{Intuition, Automation, Entscheidung. Der Komponist im Prozess algorithmischer Komposition}
+
+\section{Conclusion}
+
+
+
+
+%\section{Poubelle}
+%
+%
+%\zitat{Depuis que la composition se mesure uniquement sur la structure de chaque œuvre et non sur des exigences générales et tacitement acceptées, il n'est plus possible d'\guill{apprendre} une fois pour toutes à distinguer la bonne musique de la mauvaise.}
+%{Adorno, p. 18}
+%
+%\zitat{Le radicalisme de l'époque était en effet un mélange assez savoureux de gauchisme éventuellement marxiste, de bouddhisme zen, d'écologie \guill{survivaliste}, de musique rock et électronique, de science-fiction mâtinée de retour aux sources. Certaines communautés vivaient en Californie dans des campements à l'orée des villes, [\dots] conjuguant les attraits de la stéréophonie, de l'électronique et du retour à la nature.}
+%{Breton, p. 213}
+%
+%\zitat{Le dessinateur, le peintre, le musicien, le cinéaste ou le vidéaste, l'architecte, le designer, ne travaillent plus avec des crayons, des gommes, des règles, des pigments, des pinceaux, du marbre ou du fer, des éclairages et des caméras, le laser ou le téléphone, mais avec des symboles : ceux qui constituent le langage des programmes informatiques. Les matériaux et les outils numériques sont essentiellement d'ordre symbolique et langagier.}
+%{L'art numérique, p. 25}
+%
+%\zitat{Toutes ces relations entre l'art et la science au cours de \XIXe~et \XXe~siècles s'établissent sur un mode \guill{métaphorique}. La science fournit à l'art des représentations ou des modèles abstraits du monde que celui-ci transfigure en images sensibles ; l'art opère par substitution analogique, transfert et déplacement de sens. La science donne des idées, propose des conceptions du monde, de la réalité, inspire, suggère, travaille l'art par-dessous. Les artistes y trouvent souvent la confirmation de certaines intuitions ou une stimulation pour l'imagination. Elle se différencie en cela de la technique. Car les techniques sont, outre des processus pour transformer et produire le monde, des manières de le percevoir. La technique n'agit pas en proposant des idées, des visions abstraites, elle agit sur la perception. Directement quand elle procure aux artistes des moyens de figuration, telle la photographie, dont les répercussions sur la peinture furent très importantes, mais aussi indirectement, en modifiant l'\emph{habitus} perceptif des sociétés dans lequel s'enracine une bonne partie des pratiques artistiques et culturelles.}
+%{L'art numérique, p. 33}
+%
+%\zitat{Rompant avec toutes les techniques antérieures de figuration (au sens le plus large, car cette rupture ne concerne pas seuulement l'image), rompant avec tous les modes de socialisation des œubres (reproduction, conservation, diffusion, monstration), réintroduisant par sa très forte technicité la présence active de la technoscience au sein de l'art, le numérique, en tant que technique de simulation, porte cependant en lui les moyens de s'inscrire dans le prolongement des techniques traditionnelles utilisées par les artistes, voire dans le prolongement de cette dé-spécification technique propre à l'art du \XXe~siècle. Le numérique est facteur à la fois de rupture et de continuité. C'est à ce paradoxe que s'affrontent tous ceux qui utilisent un ordinateur pour faire œuvre. De la manière dont ils conjuguent le calculable et le sensible, le nouveau et le traditionnel, se définit leur esthétique.}
+%{L'art numérique, p. 34}
+%
+%\zitat{The use of computers, computer-controlled synthesizers, and digital hardware in live performance [\dots] had greatly increased in the 1980s. Digital processing int the performance of recent intrumental works [\dots] builds on earlier analog practices, but goes beyond these techniques to offer numeric and symbolic manipulations possible only in the digital domain. The ability of computers to listen and respond to \emph{music}, and not just to \emph{sound}, represents a qualittative change from previous analog electronic music possibilities.
+%{Composers and the computer, p. xiii}
+%
+%\zitat{}{Robert Rowe (parcours similaire, improvisation) : Colliding worlds, p. 257-261}
+%
+%\zitat{[Dmitry] Gelfand's studies in film and optics offered a way to create an alternative --- \emph{live cinema}, in which scenes never repeat themselbes and, in fact, can never be repeated.}
+%{Colliding worlds, p. 124}
+%
+%\zitat{In the 1980s, doctors at the Bonn University Clinic tested the sound chair [of Bernhard Leitner]. They found that after sitting in it for twenty minutes, many preoperative patients were more relaxed, descriptind the experience as \guill{a kind of holistic thinking}. Perhaps they meant it was a kind of meditation.}
+%{Colliding worlds, p. 233}
+%
+%\zitat{Besides electronics and music, the crossover between music, psychiatry, and medeicine excites [Tod] Machover. He envisages \guill{music and medicine as a sort of prescription. Pick the right piece and it homes in on the sweet spot}.}
+%{Colliding worlds, p. ???}
+%
+%\zitat{\guill{Now, [David Toop] continues, he works with the computer and bamboo.} The high tech and the low tech, \guill{a polarity of means, quite healthy}.}
+%{Colliding worlds, p. 242}
+%
+%\zitat{\dots~quand par exemple des jeunes créent leur groupe de rock --- il y en a même qui deviennent compositeurs de musique contemporaine.
+%Manoury : C'est vrai qu'aujourd'hui, parmi les étudiants, beaucoup viennent de ces milieux-là. Il nous est tout simplement impossible de prévoir comment un étudiant en composition va évoluer. On peut très bien faire ses premiers pas dans un petit gorupe de rock et devenir plus tard un musicien très évolué.}
+%{La musique du temps réel, p.147}
+%
+%\zitat{Bien qu'il y ait peu de chances pour que l'histoire retienne leurs noms, certains hommes ont sans aucun doute été maenés à déserter la science, étant incapables de supporter un état de crise. Comme les artistes, les savants créateurs doivent de temps à autre être capables de vivre dans un monde disloqué.}
+%{Kuhn, p. 116}
+%
+%\zitat{Mais en ce temps-là, et en particulier durant la Renaissance, on n'avait pas le sentiment d'une grande division entre les sciences et les arts; Léonard, comme tant d'autres, passait librement d'une spécialité à l'autre ; ce n'est que plus tard qu'elles se sont catégoriquement divisées. D'ailleurs, même après l'interruption de ces échanges réguliers, le terme \guill{art} a continué à s'appliquer à la technologie et à l'artisanat (que l'on considérait aussi comme progressifs) autant qu'à la peinture et à la scupture. C'est seulement quand ces dernières renoncèrent sans équivoque à faire de la représentation leur but et recommencèrent à se mettre à l'école des primitifs que la séparation que nous considérons aujourd'hui comme un fait acquis prit toute son ampleur.}
+%Kuhn}
+%
+%\zitat{\guill{Tout art doit devenir science et toute science devenir art ; poésie et philosophie doivent être réunies.}}
+%{Fragment 115 du Lycée, cité par Les théories de l'art p. 29}
+%
+%\zitat{Les relations de l'art et de la science ne sont pas nouvelles. Elles s'établissent même bien avant que les notions d'art et de science apparaissent, comme nous le rappelle Lerou-Gourhan. Les techniques des fresquistes du Magdalénien étaient déjà des œubres d'art avant la lettre et des préfigurations de la chimie (broyage et calcination des terres, fabrication de pigments et de médiums divers animaux et végétaux, outils de projection pneumatiques, etc.).}
+%{L'art numérique, p. 29}
+%
+%\zitat{The fantastic sound-houses conjured up by Francis Bacon in \emph{The New Atlantis} (1627) are one indication that the musical possibilities made possible with digital techniques have been imagined for centuries.}
+%{Composers and the computer, p. xii}
+%
+%\zitat{The composition of music according to procedures has a long history. Recent computer based-experiments were antedated by Guido d'Arezzo's table lookup procedure for assigning vowels to pitches (c. 1030), by Affligemensis's rules (c. 1130) along the same lines, and by the musical games of S. Pepys 1670) and W. A. Mozart (1770). Another importent development was D. Winkel's \emph{Componium} (completed in 1821) --- a mechanical contraaption for producing variations on themes programmed into it.}
+%{Composers and the computer, p. xiv-xv}
+%
+%\zitat{La polyphonie, comme la science, est particulière à notre civilisation occidentale. [...] Elle représente peut-être l'exploit le plus inouï, le plus original, le plus miraculeux même, de notre civilisation occidentale, sans exclure la science.}
+%{Popper, p. 83}
+%
+%\zitat{Ainsi la création musicale et la création scientifique sembleraient avoir ceci  en commun : l'emploi du dogme, ou du mythe, comme une voie artificielle par laquelle nous pénétrons l'inconnu, explorant le monde, créant des régularités ou des règles et recherchant, en même temps, les régularités existantes. Une fois que nous avons trouvé, ou érigé, quelques points de repère, nous procédons en mettant à l'épreuve de nouvelles manières de mettre de l'ordre dans le monde, de nouvelles coordonnées, de nouvelles méthodes d'exploration et de création, de nouvelles façons de construire un monde nouveau, inimaginables dans l'Antiquité, si ce n'est dans le mythe de la musique des spères. En effet, une grande œuvre musicale comme une grande théorie scientifique) est un cosmos imposé au chaos --- inépuisable, dans ses tensions et ses harmonies, même pour son créateur.}
+%{Popper, p. 86}
+%
+%\zitat{Mais pour nous, loin de nous laisser abuser par l'emploi de termes scientifiques chez l'artiste qui veut mettre au clair ses intentions créatrices, nous nous garderons bien de voir dans les structures d'un art le reflet de structures présumées du réel. Nous relèverons seulement que la propagation de certaines notions dans son milieu culturel a influencé cet artiste, au point que son art veut et doit être considéré comme la réponse de l'imagination à la vision du monde répandue par la science : \emph{l'art est une métaphore structurale de cette vision}.}
+%{L'Œuvre ouverte, p. 121}
+%
+%\zitat{Ce n'est guère un hasard que les techniques mathématiques de la musique soient nées à Vienne tout comme le positivisme logique. Le goût pour les jeux de nombres est aussi caractéristique pour les intellectuels viennois que jouer aux échecs dans les cafés.}
+%{Adorno, p. 71}
+%
+%\zitat{Pendant de longs siècles, tant dans l'Antiquité qu'au début des temps modernes, la peinture a été considérée comme \emph{la} discipline cumulative par excellence. On estimait alors que le but de l'artiste était la représentation. Les critiques et les historiens, comme Pline et Vassari, rapportaient donc avec vénération la série d'inventions, allant du raccourci au clair-obscur, qui avaient permis d'atteindre à une représentation de la nature de plus en plus parfaite.}
+%{Kuhn, p. 220-221}
+%
+%\zitat{Si cette description a bien saisi la structure essentielle de l'évolution continue d'une science, elle aura posé simultanément un problème particulier : pourquoi l'entreprise scientifique progresse-t-elle régulièrement, alors que par exemple ni l'art, ni la théorie politique, ni la philosophie ne le font ?}
+%{Kuhn, p. 218}
+%
+%\zitat{Si nous mettons en doute, comme beaucoup de gens, que les domaines non scientifiques réalisent des progrès, cela ne peut tenir au fait que les écoles particulères n'en font aucun. C'est plutôt qu'il y a toujours des écoles concurrentes dont chacune remet constamment en question les fondements mêmes des travaux des autres.}
+%{Kuhn, p. 222-223}
+%
+%\zitat{Bien sûr, il peut y avoir une forme de progrès en art au sens où certaines possibilités, ainsi que de nouveaux problèmes, peuvent être découverts. [\dots] Il y a aussi le progrès purement technologique. [\dots] Le progrès est concevable, même, en ce sens que la connaissance musicale évolue, c'est-à-dire, en ce que le compositeur, aura maîtrisé les découvertes de tous ses grands prédécesseurs.}
+%{Popper, p. 101}
+
+
+
+%Le mémoire doit contenir essentiellement de travaux de recherche originaux et ne doit être un document de synthèse relatant des travaux d’autres chercheurs. Sous une forme ou une autre, doivent donc être dégagés: \\
+%* l’état de la recherche sur le sujet avant le début de celle-ci, \\
+%* La thèse (l’argument positif central que vous défendez dans votre mémoire et lors
+%de votre soutenance). \\
+%* la problématique et les objectifs, \\
+%* une réflexion sur ce qui a été fait et ce qui reste à faire. \\
+%D’une manière générale et dans tout le mémoire, il faut distinguer clairement ce qui est rappelé pour la clarté de l’exposition, de ce qui est un apport novateur. Toutes les citations doivent renvoyer à une référence précise (y compris la page), en étant lucide vis-à-vis des différents types de sources. De façon générale, toutes les affirmations doivent être étayées (comme si l’avocat de la partie adverse cherchait la faille dans votre enquête), qu’il s’agisse d’un mémoire de didactique ou d’histoire des sciences.
 
 \newpage
 \begin{abstract}
