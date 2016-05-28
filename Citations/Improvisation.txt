@@ -1,0 +1,5 @@
+\zitat{I think it [improvisation] is a healthy situation overall. Many people are trying to learn to improvise, because it has traditionally been a wonderful way to learn about the possibilities of making music. There is a lot of interesting activity among improvisers --- new methods of strcturing, advanced ideas of how to integrate scores with improvisation, interesting new souunds, extended notions of what an \emph{instrument} is, what a \emph{virtuoso} is, what a performer's role is.}
+{George Lewis in Composers and the computer, p. 81}
+
+\zitat{[Tristan] Perich tells me that his compositions spring from improvisation, the mind at play --- usually at the piano, which is his main instrument. He constrats this with other composers who use algorithms, which introduce complications. \guill{There's a difference between process being part of the inspiration or the tool set that you have, and process being a determinant.} He prefers the former.}
+{Composers and the computer, p. 264}
