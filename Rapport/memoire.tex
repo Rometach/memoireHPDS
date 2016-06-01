@@ -13,6 +13,8 @@
 \usepackage{amsthm}
 \usepackage{amscd}
 \usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{graphicx}
 
 % MISE EN PAGE
 \setlength{\voffset}{-3.75cm}
@@ -37,11 +39,12 @@
 % PERSO
 \newcommand{\guill}[1]{«~#1~»}
 \newcommand{\eme}[0]{$^\text{e}$}
-\newcommand{\Ier}[0]{I$^\text{er}$} \newcommand{\IIeme}[0]{II\eme} \newcommand{\IIIeme}[0]{III\eme} \newcommand{\IVeme}[0]{IV\eme} \newcommand{\Veme}[0]{V\eme} \newcommand{\VIeme}[0]{VI\eme} \newcommand{\VIIeme}[0]{VII\eme} \newcommand{\VIIIeme}[0]{VIII\eme} \newcommand{\IXeme}[0]{IX\eme} \newcommand{\Xeme}[0]{X\eme} \newcommand{\XIeme}[0]{XI\eme} \newcommand{\XIIeme}[0]{XII\eme} \newcommand{\XIIIeme}[0]{XIII\eme} \newcommand{\XIVeme}[0]{XIV\eme} \newcommand{\XVeme}[0]{XV\eme} \newcommand{\XVIeme}[0]{XVI\eme} \newcommand{\XVIIeme}[0]{XVII\eme} \newcommand{\XVIIIeme}[0]{XVIII\eme} \newcommand{\XIXeme}[0]{XIX\eme} \newcommand{\XXeme}[0]{XX\eme} \newcommand{\XXIeme}[0]{XXI\eme}
+\newcommand{\Ier}[0]{I$^\text{er}$} \newcommand{\IIe}[0]{II\eme} \newcommand{\IIIe}[0]{III\eme} \newcommand{\IVe}[0]{IV\eme} \newcommand{\Ve}[0]{V\eme} \newcommand{\VIe}[0]{VI\eme} \newcommand{\VIIe}[0]{VII\eme} \newcommand{\VIIIe}[0]{VIII\eme} \newcommand{\IXe}[0]{IX\eme} \newcommand{\Xe}[0]{X\eme} \newcommand{\XIe}[0]{XI\eme} \newcommand{\XIIe}[0]{XII\eme} \newcommand{\XIIIe}[0]{XIII\eme} \newcommand{\XIVe}[0]{XIV\eme} \newcommand{\XVe}[0]{XV\eme} \newcommand{\XVIe}[0]{XVI\eme} \newcommand{\XVIIe}[0]{XVII\eme} \newcommand{\XVIIIe}[0]{XVIII\eme} \newcommand{\XIXe}[0]{XIX\eme} \newcommand{\XXe}[0]{XX\eme} \newcommand{\XXIe}[0]{XXI\eme}
 \newcommand{\bigO}[1]{\mathcal O\left( #1 \right)}
 \newcommand{\bigOmega}[1]{\Omega\left( #1 \right)}
 \newcommand{\bigTheta}[1]{\Theta\left( #1 \right)}
-\newcommand{\zitat}[2]{\#Citation#1(#2)\#}
+\newcommand{\zitat}[2]{\#Citation(#2)\#}
+\newcommand{\maze}[0]{m\symbol{64}ze\textdegree2}
 
 
 
@@ -93,61 +96,77 @@ Manoury : C'était, en effet, un retour au temps différé. À l'époque où les
 
 \subsection{Parcours}
 
-\zitat{... with complete autonomy since without public funding
-... the famous names of 20th-century music with a clear inclination towards the composers that happily pursued the spirit of modernism even through the post-modern era. Hardly a coincidence, since kHz considers himself as belonging to that ilk.}
-{An Extended Composer’s Desk - Composer Karlheinz Essl as the music curator of the Essl Museum}
+INTRO
 
-\zitat{Schon als Kind haben mich Klänge interessiert. Mitte der 70er Jahre, seit der Beschäftigung mit Stockhausen rührt auch mein Interesse für elektronische Musik her. Damals gab es bereits Synthesizer: faszinierend, aber unerschwinglich. Ich träumte davon, wenn ich einmal ganz viel Geld hätte, dann kaufe ich mir einen Synthesizer. Dazu ist es nicht gekommen, aber ich habe damals selbst Elektronik gebastelt und gelötet, habe mir kleine Schaltkreise gebaut mit Tongeneratoren und habe so eine Art Synthesizer gemacht, der natürlich nur ganz einfach war. Aber mit dem haben wir kräftig herumgequietscht und Aufnahmen gemacht, und dann mit zwei Kassettenrekordern quasi Multitrack-Recording simuliert - ein erster Anfang. Während meines Studiums der Musikwissenschaft bin ich gemeinsam mit meinen Freund Gerhard Eckel zum "Institut für Schallforschung" an die Akademie der Wissenschaften gekommen. Werner Deutsch hat unsere Neugier gefördert und wir haben Vieles ausprobiert und Algorithmen entwickelt, wie man Musik komponieren kann, wenn am Computer kompositorische Strategien umgesetzt werden.}
-{Rückblick / Vorschau - Der Komponist Karlheinz Essl im Gespräch mit Annelies Kühnelt}	
+\subsubsection{Formation : entre rock et éducation classique}
 
-\subsection{Influences}
+Né le 15 août 1960 (???) à Vienne, Karlheinz Essl est issu d'un milieu aisé et cultivé. Son père, Karlheinz Essl senior, est un entrepreneur, qui a fait fortune en fondant la chaîne de magasins de bricolages bauMax\footnote{Entreprise dissoute en 2015, suite aux conséquences de la crise financière de 2007}. Il est aussi connu comme collectionneur d'art, ayant acquis avec sa femme Agnes de nombreuses œuvres contemporaines à partir des années 1970, collection qui le conduit à faire construire son propre musée, le \emph{Essl Museum}, dans la ville de Klosterneuburg située sur le Danube à quelques kilomètres au nord de Vienne.
 
-\zitat{Le paradigme adornien d'une négativité en acte dans l'œuvre d'art se lit comme une injonction pour l'art moderne, et en partie pour l'art contmeporain, d'avoir à intégrer l'action impérative de l'avant-garde. L'art se doit d'être critique --- traduisons : avant-gardiste --- et cet impératif s'ajoute à ceux déjà institués par les fondations précédentes.}
-{Les théories de l'art, p. 59}
+Karlheinz junior est ainsi au contact d'un environnement culturel savant dès son plus jeune âge. Il étudie le piano dès l'âge de ??? ans. Il explique cependant (cite???) que cette expérience lui a déplu et qu'il n'a vraiment apprécié la musique que lorsque, adolescent, il s'est intéressé à la musique rock. Il prend alors part à plusieurs groupes et s'initie, en autodidacte, à la guitare électrique puis à la contrebasse. Néanmoins, ce n'est pas le rock \guill{grand public} qui attire Essl, qui cite plus volontiers des groupes avant-gardistes ou expérimentaux comme \emph{Gentle Giant} ou \emph{Can}. C'est à travers ce dernier qu'Essl découvre la musique du compositeur allemand Karlheinz Stockhausen (deux membres de \emph{Can}, le bassiste Holger Czukay et le claviériste Irmin Schmidt ont tous deux été ses élèves). Âgé de 15 ans, il achète un vinyle de Stockhausen, décrivant la découverte comme un véritable \guill{choc}\footnote{Dans \cite{OMNIA IN OMNIBUS: Behind the Scenes  ???}: \guill{Zuhause habe ich mir Kopfhörer aufgesetzt und mir die Platte angehört. Ich war total schockiert. Das war für mich damals ganz grauenhafte Musik, aber es hat mich gepackt.} --- \guill{À la maison, j'ai mis mon casque et écouté le vinyle. J'étais complètement sous le choc. À l'époque, je trouvais cette musique atroce, qui pourtant m'a emballé.}}.
 
-\zitat{\emph{Studie I} (1953) et \emph{Studie II} (1954) abordent les ressources de l'\guill{œuvre ouverte} dite aussi \guill{œuvre mobile}, tout en explorant les possibilités de l'électroacoustique. (Stockhausen)}
-{Wodon, p. ???}
+%\zitat{Schon als Kind haben mich Klänge interessiert. Mitte der 70er Jahre, seit der Beschäftigung mit Stockhausen rührt auch mein Interesse für elektronische Musik her. Damals gab es bereits Synthesizer: faszinierend, aber unerschwinglich. Ich träumte davon, wenn ich einmal ganz viel Geld hätte, dann kaufe ich mir einen Synthesizer. Dazu ist es nicht gekommen, aber ich habe damals selbst Elektronik gebastelt und gelötet, habe mir kleine Schaltkreise gebaut mit Tongeneratoren und habe so eine Art Synthesizer gemacht, der natürlich nur ganz einfach war. Aber mit dem haben wir kräftig herumgequietscht und Aufnahmen gemacht, und dann mit zwei Kassettenrekordern quasi Multitrack-Recording simuliert - ein erster Anfang. Während meines Studiums der Musikwissenschaft bin ich gemeinsam mit meinen Freund Gerhard Eckel zum "Institut für Schallforschung" an die Akademie der Wissenschaften gekommen. Werner Deutsch hat unsere Neugier gefördert und wir haben Vieles ausprobiert und Algorithmen entwickelt, wie man Musik komponieren kann, wenn am Computer kompositorische Strategien umgesetzt werden.}
+%{Rückblick / Vorschau - Der Komponist Karlheinz Essl im Gespräch mit Annelies Kühnelt} ???
 
-\zitat{La musique spatiale (type de Recherche)}
-{Wodon, p. 435}
+Lorsqu'il arrive dans les études supérieures, Essl décide (chimie ???) décide de se consacrer à la musique. Cette décision est prise à l'encontre de ses parents, qui le destinaient à prendre la succession de la direction de l'entreprise familiale (ce que fera finalement son frère cadet, Martin Essl). Reçu à la prestigieuse Académie de musique et des arts du spectacle de Vienne (\emph{Universität für Musik und darstellende Kunst Wien}), il y étudie l'harmonie et le contrepoint avec Alfred Uhl, la contrebasse avec Heinrich Schneikart, et la composition auprès de Friedrich Cerha. Progressivement il va abandonner la contrebasse pour se consacrer exclusivement à l'analyse et à la composition, suivant en outre des cours de Dieter Kaufmann sur la musique électro-acoustique. 	Ce parcours académique le conduit à rédiger une thèse\footnote{CITE!!!} sur la \guill{pensée-synthèse} chez Anton Webern sous la direction du musicologue Hans Schneider, achevée en 1991.
 
-\zitat{La musique électronique \\
-En 1951, Herbert Eimert (1897-1972), également musicologue, fonde le studio pour la musique électronique de la radio de Cologne (\emph{Westdeutscher Rundfunk}) afin de travailler et de contrôler les sons émis par des appareils électorniques. Ce studio est fréquenté par Karlheinz Stockhausen et Henri Pousseur. Cette seconde avant-garde y voit les moyens d'appréhender la totalité du spectre sonore avec une nouvelle précision du temps.}
-{Wodon, p. 441}
+Au cours de ses études, Essl fait deux rencontres décisives. D'abord, en 1985, il rend visite à son ami Gerhard Eckel en stage à l'Institut de Sonologie (\emph{Instituut voor Sonologie}) de La Haye (Pays-Bas), l'un des premiers centres de recherche en musique électronique et musique informatique. C'est à cette occasion qu'il fait la connaissance, en partie par hasard, de Gottfried Michael Koenig, compositeur allemand pionnier de la musique algorithmique, qui dirige l'Institut depuis 1964. Essl trouve la partition d'un quatuor écrit par Koenig (\emph{Streichquartett 1959}) et, ayant des difficultés à l'analyser, contacte celui-ci, qui lui apprend qu'il a utilisé des opérations de hasard dans sa composition. Les deux compositeurs correspondent et collaborent depuis, Essl ayant même été invité à contribuer à l'élaboration de \emph{Projekt 3}, projet resté inachevé faisant suite aux \emph{Projekt 1} et \emph{Projekt 2}, premiers programmes pour la Composition Assistée par Ordinateur (???). Puis Essl rencontre John Cage, compositeur américain emblématique du \XXe~siècle. Il connaît déjà son œuvre mais peut l'approcher en personne lors d'un concert donné en son honneur à Vienne en 1988. L'œuvre de Cage marque profondément celle d'Essl, qui lui rend d'ailleurs hommage dans deux de ses créations : \emph{In The Cage} (1987) et \emph{FontanaMixer} (2004).
 
-\zitat{Dans les années 1990, ses [François-Bernard Mâche (1935-)] œuvres mixtes se rapporchent de l'esthétique de l'hybride en recourant à des moyens informatiques pour le mélange des sons de synthèse à ceux des instruments traditionnels.}
-{Wodon, p. 443}
-
-\zitat{Le collage, la citation
-Après Mahler et Stravinsky, considérés comme des instifateurs du collage et de la citation, il s'agit d'une compilation d'extrait musicaux ou d'un assemblage de fragments de matériaux différents effectués grâce aux possibilités offertes par les studios radiophoniques et la musique électronique.}
-{Wodon, p. ???}
-
-\zitat{Schönberg dealt a blow to tonality and Cage to the notion of what constitutes a work --- opening the way to the notion of \emph{work in progress} or \emph{open-ended} works.}
-{Andrew Gerzso, New computational paradigms for computer music, p. 1}
-
-\zitat{It is interesting to note that we have with Cage two ways of using randomness for music composition. One, inhreited from Duchamp, is what can be called \emph{internal chance}: randomness is used at composition time to determine the score, which is then written and closed. The other can be called \emph{external chance}: the score is open to real-time chance operation and external perturbation. In that respect, \emph{4'33''} is certainly the best and minimal example of external chance.}
-{Philippe Codognet, New computational paradigms for computer music, p. 160}
-
-\zitat{Je dois avouer une chose : je n'aime rien tant que les musiques qui offrent des fluctuations de temps et d'épaisseur. [\dots] Des musiques dont le temps est proche du temps que l'on vit, avec des intensités et des poids différents, la singularité impérieuse du moment qui ne se reproduira jamais plus, des temps organiques pour tout dire.}
-{La musique du temps réel, p. 74}
-
-\zitat{\guill{L'œuvre d'art est un labyrinthe, où à chaque point, le connaisseur sait trouver l'entrée et la sortie sans qu'il soit guidé par un fil rouge. Plus les veines sont serrées et entrelacées, et plus sûrement il survole n'importe quel chemin vers le but. Les faux chemins, si faux chemins il y a dans l'œuvre d'art, le conduiraient au bon endroit, et chaque tournant, aussi divergent qu'il soit, le ramène dans la direction du contenu essentiel}}
-{Arnold Schönberg, Aphorismen, in Die Musik, 9e année, Berlin 1909-1910, fasc. IV, pp. 159 sq.
-Cité par Adorno p. 123-124}
-
+Cette période de formation, qui s'achève avec jusqu'à la soutenance de thèse en 1991, voit se former le style d'Essl. On peut y identifier ses principales influences théoriques. \\
+D'abord, il y a le \textbf{sérialisme}\footnote{Pour plus de détails, voir par exemple \cite{WODON !!!}}, auquel l'a initié son professeur Friedrich Cerha\footnote{Dans \cite{???}, Essl précise qu'avant de commencer sa formation auprès de Cerha ses goûts le portaient plutôt vers des mouvances opposées comme le néo-clacissisme. \zitat{Ich war damals ein junger Student, habe bei Friedrich Cerha Komposition studiert und steckte in einer massiven Krise, weil ich eigentlich von einer anderen Kompositionsauffassung herkam: Hindemith, Genzmer, Neoklassizismus waren damals für mich wichtig.}
+{Elektronische Musik / Komposition / Improvisation - Karlheinz Essl im Gespräch mit Silvia Pagano}}. Ce mouvement, fondé à Vienne par la seconde école de Vienne (Arnold Schönberg, Alban Berg et Anton Webern), élabore à l'origine des techniques d'inspiration arithmétique pour éradiquer systématiquement la tonalité des compositions ; de très nombreux compositeurs du \XXe~siècle s'en réclament et l'on développé. (???en parler plus ?) Sur le plan esthétique, l'école va de paire avec la philosophie d'Adorno, lui-même compositeur, qui promeut la \textbf{Nouvelle Musique} (\emph{Neue Musik}), marquée par l'injonction avant-gardiste. Cette théorie esthétique, présente dans toutes les disciplines de l'art contemporain, exige des artistes une innovation radicale permanente pour mériter ce statut\footnote{\zitat{Le paradigme adornien d'une négativité en acte dans l'œuvre d'art se lit comme une injonction pour l'art moderne, et en partie pour l'art contemporain, d'avoir à intégrer l'action impérative de l'avant-garde. L'art se doit d'être critique --- traduisons : avant-gardiste --- et cet impératif s'ajoute à ceux déjà institués par les fondations précédentes.}
+{Les théories de l'art, p. 59} Pour plus de détails sur l'esthétique d'Adorno, voir \cite{ESTHÉTIQUE} et \cite{adorno1949philosophie}}. Elle se manifeste dans l'intérêt qu'Essl portera à l'ordinateur et sa participation à l'avant-garde. \\
+Les autres influences notables sont celles des trois compositeurs déjà cités : \textbf{Stockhausen}, \textbf{Koenig} et \textbf{Cage}. Tous trois ont été parmi les premiers musiciens à explorer les possibilités de l'\emph{œuvre ouverte}\footnote{Telle que définie par Umberto Eco dans \cite{eco1962opera}, voir partie \ref{???} pour plus de ???)} et du hasard, problématiques très présentes dans l'œuvre d'Essl. Koenig a même affirmé même que \guill{la maîtrise du hasard par le compositeur est un problème centrale de la musique actuelle}\footnote{\zitat{"die kompositorische Beherrschung des Zufalls ein zentrales Problem heutigen Komponierens" [G. M. Koenig, "Kommentar", S. 81]}.}. De Stockhausen, on retrouve l'intérêt porté au son et en particulier au son de synthèse, avec l'intégration de la musique électronique dans la musique savante. De Koenig, une paternité technique directe, puisqu'il a initié Essl à la musique algorithmique. De Cage, la recherche de formes radicalement nouvelles, en particulier l'événement, la performance. Dans \cite{GERZSO ???}, le compositeur Andrew Gerzso résume ainsi le terreau dans lequel Essl a pu développer son œuvre : \zitat{Schönberg dealt a blow to tonality and Cage to the notion of what constitutes a work --- opening the way to the notion of \emph{work in progress} or \emph{open-ended} works.}
+{Andrew Gerzso, New computational paradigms for computer music, p. 1}.\\
+Enfin, la dernière influence notable d'Essl est d'ordre philosophique ; il s'agit du constructivisme radical, auquel le compositeur a même dédié un essai en 1992 (\cite{RADIKAL???}). Cette épistémologie repose sur l'idée que la \guill{connaissance} est une construction de l'esprit par rapport au monde, qui peut de fait varier d'un individu à l'autre, sans qu'il soit possible de parler de \guill{vérité}. Essl résume ainsi l'application de ce courant de pensée à sa pratique artistique : \guill{La musique ne se produit donc pas seulement dans la salle de concert, mais principalement dans la tête de l'auditeur. Savoir que le monde est construit par les perceptions individuelles plutôt que la simple illustration d'une réalité extérieure est lourd de conséquences pour la composition musicale. Cela fait en effet de l'auditeur un co-créateur.}
 \zitat{Musik findet deshalb nicht allein im Konzertsaal, sondern vor allem im Kopf statt. Die Erkenntnis, dass die Welt nicht nur die Abbildung einer äußeren Wirklichkeit ist, sondern erst durch individuelle Wahrnehmungsarbeit konstruiert wird, führt zu radikalen Konsequenzen für die musikalische Komposition, die letztendlich den Hörer zum Mitschöpfer macht.}
 {sine fine... Unendliche Musik}
 
-\zitat{"die kompositorische Beherrschung des Zufalls ein zentrales Problem heutigen Komponierens" [G. M. Koenig, "Kommentar", S. 81]}
-{Zur Theorie der Seriellen Musik in Strukturgeneratoren - Algorithmische Komposition in Echtzeit}
+Bien que le rock ait joué un rôle décisif, à la fois en étant la source de la passion qui a décidé Essl à faire des études de musique, et en l'amenant à Stockhausen et à la musique électronique, son parcours est ???
 
-\zitat{Ich war damals ein junger Student, habe bei Friedrich Cerha Komposition studiert und steckte in einer massiven Krise, weil ich eigentlich von einer anderen Kompositionsauffassung herkam: Hindemith, Genzmer, Neoklassizismus waren damals für mich wichtig.}
-{Elektronische Musik / Komposition / Improvisation - Karlheinz Essl im Gespräch mit Silvia Pagano}
+??? Est-ce qu'il faut mettre les dates de tous ces gens ?
 
-\subsection{Esthétique}
+\subsubsection{Vers la musique algorithmique}
+
+On l'a vu, la rencontre avec Gottfried Michael Koenig a amené Essl à s'intéresser à la musique algorithmique. Cet intérêt d'abord théorique connaît par la suite de nombreux développements sur le plan pratique, qui se construit parallèlement à la relation entre Essl et l'ordinateur.
+
+Ici, il convient de préciser ce que signifie ce terme de \guill{musique algorithmique}, et, pour commencer, ce qu'est un algorithme. 
+
+C'EST QUOI LA MUSIQUE ALGORITHMIQUE ?
+
+\zitat{Formally speaking, algorithmic composition is the creation of algorithms whose output has clear musical consequences of use to the composer, from the production and exploration of musical materials to the generation of complete works.}
+{Introduction to Computer Music, p. 299}
+
+\zitat{Man sollte sich zunächst die Frage stellen, was denn ein Algorithmus ist. Da gibt es klassische Definitionen, die eher aus den Ingenieurswissenschaften kommen, die beschreiben den Algorithmus als eine Art Kochrezept um schnell zu einer Lösung zu kommen. Dies ist ein möglicher Ansatz, aber es gibt noch einen weiteren, den ich interessanter finde. Dort begreift man einen Algorithmus mehr als Definition eines Metamodells, aus dem heraus durch Veränderung der Systemparameter verschiedenste Resultate entstehen. Diesen Algorithmusbegriff verwende ich selber und finde ihn auch in Werken und Arbeiten von Gottfried Michael Koenig und Karlheinz Stockhausen.}
+{Intuition, Automation, Entscheidung. Der Komponist im Prozess algorithmischer Komposition}
+
+\zitat{weil wir ja immer noch über Algorithmen sprechen. Dieser Begriff hat nichts mit Rhythmen zu tun, sondern ist nach diesem Mathematiker al-Chwarizmi benannt, der verschiedene mathematische Konzepte eingeführt hat. Diese sind auch die Grundlage meines Musikdenkens, Musik nicht nur als ein sinnliches Erlebnis zu sehen, sondern als etwas, das viele Tiefendimensionen hat, die sich in Form von Modellen ausdrücken lassen.}
+{OMNIA IN OMNIBUS: Behind the Scenes - Karlheinz Essl im Gespräch mit Katharina Hötzenecker}
+
+REMARQUE : EN MÊME TEMPS QUE TOUT LE MONDE
+
+
+Théorique => pratique
+
+\subsubsection{IRCAM et Composition en temps réel}
+
+LEXIKON-SONATE
+
+MAZE
 
 \zitat{Many digital instruments can be attached to inexpensive personal computers. The proliferation of inexpensive computers puts the capability of intelligent instruments within the reach of virtually every musician who wants them.}
 {Composers and the computer, p. xvii}
+
+\zitat{+ description du processus de composition}
+{Composing in a Changing Society - How does a composition come into existence ?}
+
+PRODUCTIVITÉ
+
+\subsubsection{Ouverture --> Internet}
+
+IMPROVISATION
+
+\zitat{Ohne Computer wäre meine Arbeit schwer vorstellbar, selbst wenn ich Instrumentalmusik mache; dadurch war es mir möglich, aus meinem kompositorischen Elfenbeinturm auszubrechen.}
+{Elektronische Musik / Komposition / Improvisation - Karlheinz Essl im Gespräch mit Silvia Pagano}
 
 \zitat{I think it [improvisation] is a healthy situation overall. Many people are trying to learn to improvise, because it has traditionally been a wonderful way to learn about the possibilities of making music. There is a lot of interesting activity among improvisers --- new methods of strcturing, advanced ideas of how to integrate scores with improvisation, interesting new souunds, extended notions of what an \emph{instrument} is, what a \emph{virtuoso} is, what a performer's role is.}
 {George Lewis in Composers and the computer, p. 81}
@@ -155,26 +174,134 @@ Cité par Adorno p. 123-124}
 \zitat{[Tristan] Perich tells me that his compositions spring from improvisation, the mind at play --- usually at the piano, which is his main instrument. He constrats this with other composers who use algorithms, which introduce complications. \guill{There's a difference between process being part of the inspiration or the tool set that you have, and process being a determinant.} He prefers the former.}
 {Composers and the computer, p. 264}
 
-\zitat{+ description du processus de composition}
-{Composing in a Changing Society - How does a composition come into existence ?}
+\subsubsection{Conclusion}
+
+=> CLASSIQUE DE SA GÉNÉRATION
+
+\subsection{Esthétique}
+
+\subsubsection{INTERNET ???}
+
+\subsubsection{Multitâche}
 
 \zitat{Essl's compositional output spans every possible medium: orchestral, chamber, musical theater/performance, live electronics, electronic computer music, real-time and meta compositions, meta-instruments, installations and soundscapes, film music, visuals, text compositions and works for solo instruments. Always looking to expand his creative output, Essl frequently collaborates with artists from other fields, including choreographers, dancers, visual artists, video artists, architects, poets, authors, and graffiti artists.}
-{Julieanne Klein - A Portrait of the Composer Karlheinz Essl}
+{Julieanne Klein - A Portrait of the Composer Karlheinz Essl}	
 
-\zitat{weil wir ja immer noch über Algorithmen sprechen. Dieser Begriff hat nichts mit Rhythmen zu tun, sondern ist nach diesem Mathematiker al-Chwarizmi benannt, der verschiedene mathematische Konzepte eingeführt hat. Diese sind auch die Grundlage meines Musikdenkens, Musik nicht nur als ein sinnliches Erlebnis zu sehen, sondern als etwas, das viele Tiefendimensionen hat, die sich in Form von Modellen ausdrücken lassen.}
-{OMNIA IN OMNIBUS: Behind the Scenes - Karlheinz Essl im Gespräch mit Katharina Hötzenecker}
+\subsubsection{Autariat !!!}
 
-\zitat{Ohne Computer wäre meine Arbeit schwer vorstellbar, selbst wenn ich Instrumentalmusik mache; dadurch war es mir möglich, aus meinem kompositorischen Elfenbeinturm auszubrechen.}
-{Elektronische Musik / Komposition / Improvisation - Karlheinz Essl im Gespräch mit Silvia Pagano}
-
-\zitat{Man sollte sich zunächst die Frage stellen, was denn ein Algorithmus ist. Da gibt es klassische Definitionen, die eher aus den Ingenieurswissenschaften kommen, die beschreiben den Algorithmus als eine Art Kochrezept um schnell zu einer Lösung zu kommen. Dies ist ein möglicher Ansatz, aber es gibt noch einen weiteren, den ich interessanter finde. Dort begreift man einen Algorithmus mehr als Definition eines Metamodells, aus dem heraus durch Veränderung der Systemparameter verschiedenste Resultate entstehen. Diesen Algorithmusbegriff verwende ich selber und finde ihn auch in Werken und Arbeiten von Gottfried Michael Koenig und Karlheinz Stockhausen.}
-{Intuition, Automation, Entscheidung. Der Komponist im Prozess algorithmischer Komposition}
+\zitat{... with complete autonomy since without public funding
+... the famous names of 20th-century music with a clear inclination towards the composers that happily pursued the spirit of modernism even through the post-modern era. Hardly a coincidence, since kHz considers himself as belonging to that ilk.}
+{An Extended Composer’s Desk - Composer Karlheinz Essl as the music curator of the Essl Museum}
 
 
 
-\section{Étude de la \emph{Realtime composition library} (RTC-lib)}
+\section{La composition en temps réel à travers ses programmes}
 
 \subsection{Introduction}
+
+Cette partie se propose d'analyser l'œuvre d'Essl à partir du code même de ses programmes. 
+étudier la notion de \guill{composition en temps réel} dans l'œuvre d'Essl, !!! !!!
+
+\subsection{La \emph{Realtime Composition Library}}
+
+La \emph{Realtime Composition Library} (RTC-lib) est une bibliothèque, c'est-à-dire un ensemble de fonctions réutilisables dans des programmes, développée par Karlheinz Essl dans le langage MAX/MSP. Son développement commence dès 1992, c'est-à-dire dès le moment où Essl a été mis en contact avec ce langage développé un an plus tôt par Miller Puckette (!!!), lors de son stage à l'IRCAM. Son origine remonte même à 1988, si l'on considère qu'Essl a commencé par implémenter dans ce nouveau langage les algorithmes de composition qu'il avait déjà développés en xLOGO, rassemblés dans une bibliothèque intitulée \emph{COMPOSE}.
+
+Cette bibliothèque est le socle de la plupart des œuvres réalisées par Essl impliquant la programmation. Il en recense 56 à ce jour : partitions, programmes, installations \emph{works-in-progress}\dots, parmi lesquels certaines de ses créations majeures comme les \emph{Sequitur} (!!!), \emph{fLOW} (!!!) ou encore la \emph{Lexikon-Sonate}, que !!!. C'est aussi à partir d'elle qu'il a conçu l'\guill{instrument} qu'il utilise lors de ses performances, le \maze. Elle est distribuée sous licence libre. Elle est disponible en téléchargement et il est possible de l'utiliser et de la modifier gratuitement, à la seule condition d'en citer les auteurs.
+
+Dans ce qui suit, je propose une description détaillée et une analyse de cette bibliothèque, en commençant par !!!
+
+
+\subsubsection{Description}
+
+MAX/MSP est un \emph{langage de programmation graphique}, c'est-à-dire un langage de programmation dans lequel les programmes ne sont pas écrits en texte mais construits à partir d'éléments graphiques. Dans le cas de MAX, ces éléments sont des boîtes ou \guill{\emph{patches}} possédant des entrées et des sorties, et des liens qui permettent à ses fonctions d'interagir --- typiquement : relier une sortie d'un \emph{patch} à l'entrée d'un autre. Un exemple (figure !!!). Il existe deux modes d'édition distincts, l'un pour construire le \guill{circuit} du programme, l'autre permettant de l'exécuter et de modifier les paramètres (valeurs numériques, impulsions ou \guill{\emph{bangs}}, curseurs etc.). MAX ayant été développé expressément pour la musique assistée par ordinateur, il contient de nombreux objets dédiés comme des entrées et sorties MIDI, ou dédiés au traitement du son\footnote{En réalité, MAX ne permettait à l'origine que la manipulation de données au format MIDI ; c'est la bibliothèque MSP, ajoutée en 1997, qui permet le traitement de signal audio (\emph{Digital Signal Processing, ou DSP}). Une autre bibliothèque d'importance nommée Jitter a été ajoutée en 2002, qui permet synthèse la manipulation graphiques.}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=5.5cm]{images/MAXbase.png}
+\label{maxmsp}
+\caption{Un programme basique en MAX/MSP : l'affichage et l'addition de deux entiers déterminés par des \emph{sliders}.}
+\end{figure}
+
+
+La RTC-lib est divisée en huit rubriques, qu'illustre en outre un tutoriel (voir figure !!!). Les trois premières rubriques, \emph{Toolbox}, \emph{Chance} et \emph{Lists}, contiennent des objets « basiques ». Les trois suivantes, \emph{Harmony}, \emph{Rhythm} et \emph{Envelopes}, des objets « de composition », et les deux dernières, \emph{MSP} et \emph{Jitter}, regroupent les fonctions directement liées aux sorties son et vidéo. À ce jour il y a en tout 177 objets. 140 sont écrits par Essl, les autres en collaboration avec ou d'après d'autres compositeurs ou chercheurs\footnote{R. Albert Falesch, Charles Baker, Frank Barknecht, John Chowing, Chris Dobrian, Richard Dudas, Gerhard Eckel, Peter Elsea, Philippe Gruchet, Gary Lee Nelson, Serge Lemouton, James McCartney, Iain Mott, Eric Singer, Les Stuck et David Zicarelli.}.
+
+
+
+On y trouve de nombreuses fonctions très simples, en particulier dans la rubrique \emph{Toolbox} : calcul de l'inverse, de l'opposé, accumulateur\dots~D'autres corrigent ou améliorent des fonctions pré-existantes, comme la division euclidienne (ne fonctionnant à l'origine qu'avec un numérateur positif) ou l'arrondi (rendu paramétrable par Essl). \\
+C'est aussi le cas de la rubrique \emph{Lists}, dont la plupart des fonctions proposent simplement une forme plus ergonomique de fonctions pré-existantes, parfois simplement en leur donnant un nom plus clair. Elle contient ainsi des fonctions calculant la longueur d'une liste, l'intersection de deux listes, scindant une liste\dots~On en trouve d'autres qui résument en une seule fonction des opérations très simples mais utiles et donc amenées à être utilisées souvent. Par exemple la fonction \emph{butfirst} (respectivement \emph{butlast}) cache simplement, en lui donnant une signification explicite, la scission d'une liste après son premier (respectivement avant son dernier) élément. \\
+Enfin, les dernières fonctions avant tout pratiques que contient la RTC-library sont des conversions présentes dans chaque rubrique. Elles permettent au compositeur de manipuler les différents outils de la bibliothèque sans se soucier de leur compatibilité de type, qui peut être immédiatement gérée par ces convertisseurs. Cela va de transformations de pitch en note MIDI ou en fréquence à celles entre différentes sorties sons, ou encore à celles entre durées relatives et absolues.
+
+\subsubsection{Analyse}
+
+\paragraph{Théorique}
+
+\paragraph{Technique}
+
+\paragraph{Esthétique}
+
+Le cœur de la partie véritablement compositionnelle de la RTC-library réside à mon sens dans la rubrique \emph{Chance}. En effet, bien qu'elle contienne comme \emph{Toolbox}, \emph{Lists}, \emph{MSP} et \emph{Jitter} des outils basiques représentant des fonctions simples, c'est la variété des générateurs aléatoires présents dans celle-ci qui rend possible la liberté de développer des algorithmes musicaux. Et c'est pour beaucoup à partir de cette variété que se construisent les fonctions des modules \emph{Harmony}, \emph{Rhythm} et \emph{Envelopes}. Là encore, l'ergonomie est une préoccupation importante ; tous les générateurs sont ainsi déclinés en deux fonctions, selon qu'ils fournissent leurs résultats séquentiellement, ou directement sous la forme d'une liste. Là encore, toutes les fonctions ont un code relativement simple, parfois largement fondé sur des fonctions standard de MAX, comme la génération sérielle présente nativement dans la fonction \emph{xrandom} rebaptisée \emph{series}. \\
+On retrouve la plupart des générateurs aléatoires classiques : probabilité uniforme, sérialisme, chaînes de Markov, mouvement brownien. Certains sont déclinés en plusieurs variantes intégrant des paramètres supplémentaires (pondérations, interdiction de répétitions...). On remarque la présence moins commune de plusieurs générateurs reposant sur des échelles logarithmiques, mais l'absence de générateurs reposant sur des distributions de probabilité comme les lois de Gauss ou de Poisson. D'une manière générale, on trouve presque exclusivement - c'est-à-dire à l'exception du générateur de mouvement brownien, \emph{brownian} - des générateurs discrets et non continus.
+
+Si l'on se penche maintenant sur les rubriques dites « de composition », on peut y distinguer trois sortes de fonctions. \\
+D'abord, il y a les fonctions spécifiques aux données du son concernées, qui implémentent des comportements et des outils classiques. Par exemple, la fonction \emph{neutral-harmony(n,i)} génère séquentiellement des notes à partir de n par déplacement d'un intervalle i puis de son complémentaire, tandis que la \emph{metro-dev\%} modélise un instrumentiste humain en introduisant des approximations dans un battement parfaitement régulier, et que la fonction \emph{panning} calcule la distribution stéréo des volumes pour simuler le déplacement de la source sonore. Parmi cette première sorte, toute une sous-section de \emph{Harmony} est dédiée aux manipulations dodécaphoniques usuelles. \\
+La deuxième sorte de fonctions est une application des différents générateurs aléatoires et de certaines opérations de listes à chaque rubrique. Concrètement, ce sont à peu de choses près des convertisseurs qui transforment les résultats de ces générateurs en données représentant des hauteurs de notes (entiers d'un certain ensemble), des rythmes (\emph{bangs} émis, ou entiers correspondant à des ?????????????ED), et des vélocités (entiers entre 0 et 127). Néanmoins cette description est un peu réductrice, en ce que ces fonctions considérées de l'extérieur dépassent la simple conversion de données, possèdent un véritable contenu sémantique.
+Les fonctions de la troisième sorte regroupent les précédentes. Elles possèdent de nombreux paramètres d'entrée, dont la possibilité de choisir parmi les différentes méthodes aléatoires utilisables. C'est typiquement le cas du très complet \emph{super-rythm}.
+
+J'ai écrit que la plupart des algorithmes présents dans cette bibliothèque était plutôt simples ; en terme de complexité algorithmique, ils sont tous au plus linéaires (ce qui est, effectivement, une complexité faible). Cette complexité n'est en outre jamais apparente dans les algorithmes d'Essl (sous forme par exemple de boucles ou, plus évident en MAX, de récursivité), mais seulement dans les sous-procédures élémentaires qu'il appelle, plus précisément les manipulations de listes et les objets de type \emph{métronome}. \\ 
+%[Ici aussi il aurait fallu quelques précisions sur la complexité algorithmique. J'ai supposé que vous étiez familier avec cette notion, primordiale pour tout informaticien théorique, mais j'ai l'impression qu'il y a assez peu de porosité et qu'elle est peu ou mal connue par ailleurs.]
+
+S'il fallait décrire un « style » de programmation dans la RTC-library, je dirais que c'est une pensée avant tout fonctionnelle. Cela signifie que le paradigme avec lequel Essl approche la programmation lui fait voir les algorithmes comme des fonctions qui \emph{calculent} (pensée fonctionnelle) plutôt que par exemple comme des listes d'instructions à exécuter (pensée impérative). Une illustration simple en serait la fonction \emph{remove} de la rubrique \emph{Lists} : pour supprimer le \emph{n}-ième élément d'une liste \emph{L}, Essl calcule les sous-listes \emph{L1} et \emph{L2} séparées au niveau de cet élément, puis la liste \emph{L1'} comme \emph{L1} privée de son dernier élément, et enfin le résultat comme la jonction de \emph{L1'} et\emph{L2}. Une pensée impérative aurait plutôt fait reculer d'un rang chaque élément à partir du \emph{n+1}-ième. Cela n'a rien de surprenant car c'est la manière de programmer naturellement induite par le langage MAX, et associée avec l'utilisation de listes, omniprésentes dans la RTC-library (la structure de données équivalente de la programmation impérative étant le tableau). Il est cependant intéressant de noter qu'Essl, qui a commencé à programmer avec des langages impératifs (Basic, LOGO) maîtrise parfaitement les codes du paradigme de programmation le mieux adapté dans ce contexte - malgré l'absence de récursivité, autre caractéristique essentielle de la pensée fonctionnelle. D'une manière générale, lesl algorithmes sont codés de manière directe, concise, et très claire. On peut même remarquer parfois le choix, augmentant cette concision, d'étapes \emph{hard-coded} : au lieu de faire calculer une sous-fonction de manière procédurielle, l'ensemble de ses valeurs est intégralement décrit en donnée.
+
+Enfin, quelques remarques sur les choix esthétiques sous-jacents. L'influence de l'école sérielle est très présente, ainsi que celles de Gottfried Michael Koenig et de Karlheinz Stockhausen, à qui plusieurs algorithmes font des emprunts (ils sont nommés dans les descriptions). La pensée est aussi très « pianistique » dans le sens où les notes sont décrites par d'uniques hauteur et vélocité (comme sur un piano mais pas sur un violon, où le son d'une même note peut évoluer dans le temps). Il aurait pu en être autrement compte tenu de l'intérêt qu'Essl accorde au son en général, mais cela n'a rien d'étonnant dans un langage de programmation qui privilégie la notation MIDI, et un langage musical marqué par la pensée sérielle. Rythmiquement, on peut noter un affranchissement de la notation sur partition car ce ne sont jamais des noires, croches, doubles, etc., qui sont manipulées, mais exclusivement des durées absolues. Enfin, lorsqu'il s'agit de générer les ensemble de valeurs parmi lesquelles opérer des choix aléatoires, Essl a une préférence nette pour les échelles logarithmiques - sans doute parce qu'elles permettent à la fois précision et contrastes -, disponibles presque systématiquement.
+
+En conclusion, il apparaît que les moyens techniques nécessaires à l'utilisation de cette bibliothèque en temps réel concernent avant tout l'interaction entre l'unité de calcul et les périphériques de son ou d'image. Les algorithmes utilisés par Essl sont d'une complexité très en-deçà non seulement des capacités non seulement des processeurs actuels, mais aussi de leurs prédécesseurs. [Il faudrait que je creuse pour avoir une idée de ce qu'on peut exécuter en temps perçu comme réel sur les \emph{personal computers} des trente dernières années, mais je soupçonne que c'était déjà le cas, ou alors presque, en 1991.] Il possède une bonne maîtrise technique, à la fois dans l'efficacité des algorithmes et dans la manière de les présenter et documenter (sans quoi l'entretien du code et son utilisation par d'autres serait beaucoup moins aisée). Mais c'est son savoir-faire de compositeur qui ressort, qui se reflète dans le choix des algorithmes plutôt que dans leur implémentation. Bien que ceux-ci soient « simples » au sens informatique, la RTC-lib est très complète car d'une part chaque algorithme de composition peut produire des résultats très divers selon la leur paramétrage, et ils sont facilement combinables, pour créer des générateurs de musique dont les modules de la \emph{Lexikon-Sonate} sont d'éloquentes illustrations.
+
+
+
+\subsection{Analyse}
+
+
+
+% D'après http://doornbusch.net/ !!!
+% https://en.wikipedia.org/wiki/Instructions_per_second#MIPS !!!
+\begin{figure}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Année} & \textbf{Mips} (!!!) & \textbf{Modèle} & \textbf{Type} (!!!) \\
+\hline
+1954 & 0,000640 & IBM 704 & Mainframes \\
+\hline
+1969 & 3,3 & IBM 360/85 & Mainframes \\
+\hline
+1973 & 0,065500 & DEC PDP 11/45 & Mini \\
+\hline
+1977 & 0,230 & Apple II & Micro \\
+\hline
+1982 & 2,188 & Atari ST & Mini \\
+\hline
+1985 & 1,6 & VAX 11/785 & Mini \\
+\hline
+2003 & 3100 & Mac G5 & Micro \\
+\hline
+2008 & 50000 & Apple Mac Pro & Micro \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Tableau MIPS !!!}
+\label{tableaumips}
+\end{figure}
+
+% « Many functions that are often useful in algorithmic composition are provided with this library - therefore the composer could concentrate rather on the composition than the programming aspects. » Il s'agit effectivement principalement de fonctions assez simples techniquement, mais conçues de manière très ergonomique.
+
+\zitat{Most of these objects are geared towards straightforward processing of data. By using these specialized objects together in a patch, programming becomes much more clear and easy. Many functions that are often useful in algorithmic composition are provided with this library - therefore the composer could concentrate rather on the composition than the programming aspects.}
+{RTC-lib}
+
+\subsection{Quelle \guill{composition en temps réel} ?}
+
+\zitat{It is interesting to note that we have with Cage two ways of using randomness for music composition. One, inhreited from Duchamp, is what can be called \emph{internal chance}: randomness is used at composition time to determine the score, which is then written and closed. The other can be called \emph{external chance}: the score is open to real-time chance operation and external perturbation. In that respect, \emph{4'33''} is certainly the best and minimal example of external chance.}
+{Philippe Codognet, New computational paradigms for computer music, p. 160}
+=> Ça se rejoint dans RTC !!!
 
 \zitat{Mais le temps réel est une notion technologique avant d'être une notion musicale. C'est en fait une illusion. Le temps réel n'existe jamais dans la réalité technologique parce qu'une machine met toujours un certain temps, même si celui-ci est extrêmement bref, pour effectuer ses calculs.}
 {La musique du temps réel, p. 41}
@@ -192,13 +319,6 @@ Cité par Adorno p. 123-124}
 {Composing in a Changing Society - How does a composition come into existence ?}
 
 \zitat{I immediately felt in love with it for it offered the possibility of realtime processing and interactivity. (In LOGO, it took many hours to calculate a score list which I had to transcribe into of musical notation in order to analyze it - a very time-consuming procedure).}
-{RTC-lib}
-
-\subsection{Présentation de la bibliothèque}
-
-\subsection{Analyse}
-
-\zitat{Most of these objects are geared towards straightforward processing of data. By using these specialized objects together in a patch, programming becomes much more clear and easy. Many functions that are often useful in algorithmic composition are provided with this library - therefore the composer could concentrate rather on the composition than the programming aspects.}
 {RTC-lib}
 
 \subsection{La \emph{Lexikon-Sonate}}
