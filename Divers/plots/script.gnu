@@ -45,3 +45,27 @@ set output 'ComputerMusic2.png'
 set title "Oeuvres de Computer Music"
 replot
 set terminal wxt
+
+# COMPUTER MUSIC 3
+set style histogram columnstacked
+set style fill solid border -1
+set boxwidth 0.8 relative
+plot for [COL=1:36] 'ComputerMusic3.dat' using COL title columnheader
+set terminal png
+set output 'ComputerMusic3.png'
+set title "Productivité de Karlheinz Essl au cours de sa carrière"
+replot
+set terminal wxt
+
+# MIPS
+set logscale y
+set xrange [1950:2010]
+set style line 1 lc rgb 'black' pt 5
+plot 'MIPS.dat' using 1:2 with linespoints, 'MIPS.dat' using 3:4 with linespoints
+set terminal png
+set output 'MIPS.png'
+set title "MIPS"
+replot
+set terminal wxt
+
+
