@@ -3,10 +3,6 @@ Philippe Manoury - L'informatique gain de temps est traditionnelle. C'est l'outi
 \emph{L'informatique conceptuelle} intervient quand il y a création d'événements sonores incocevables sans l'informatique. Ça peut être l'engendrement de partitions de synthèse absolument inimaginable dans un autre contexte, ou l'élaboration de timbres non instrumentaux, ou des engendrements rythmiques\dots}
 {Composition et environnements informatiques, p. 42}
 
-\zitat{Le temps devient également une notion importante dans la composition avec les nouvelles technologies. \\
-Guy Reibel, compositeur, précise que le rapport au son est bouleversé, et aussi le rapport au temps : \guill{La pulsation disparaît au profit du voyage à l'intérieur de l'objet sonore, parcouru de son début à sa fin, lorsqu'il est formé, ou encore, plus radicalement, écouté hors du temps dans son écoulement et la variabilité de son fflux lorsque sa durée est indéterminée \tpp~Le rapport au temps, à la notion de temps n'est plus le même, avec ces musiques qui \guill{marchent toutes seules}, dans lesquelles l'himme a délégué son geste (celui qui produit le son) à la machine.}}
-{Heinrich, p. 89}
-
 \zitat{La situation d'improvisation est la situation où compositeur et interprète sont confondus. Dans cette situation, la présence et la réaction du public jouent un rôle plus actif que dans la situation de simple interprétation. Le public peut influer sur le déroulement de la pièce, puisque celui-ci n'est pas entièrement déterminé. L'élan créatif de l'intreprète dépend de l'attitude du public.}
 {Heinrich, p. 89}
 
@@ -15,17 +11,14 @@ La situation de musique de sons fixés - Les sons fixés peuvent avoir différen
 La situation de musique mixte - Dans cette situation, les sons peuvent être produits par des instruments ou des synthétiseurs. Mais ces sont ne sont pas produits par un interprète. L'exécution s'effectue en temps réel.}
 {Heinrich, p. 236-238}
 
-\zitat{The training of musicians begins by teaching basic musical concepts, a collection of knowledge commonly known as musicianship. These concepts underlie the musical skills of listening, performance, and composition.}
-{Machine musicianship, p. 1}
-
-\zitat{Those who dismiss machine musicianship tend to argue that algorithmic composition programs (as one example) are more interseting technologically than they are musically.}
-{Machine musicianship, p. 3}
-
 \zitat{Another prominent source of dissatisfaction with the enterprise derives from a belief that the development of increasingly musical programs forms a real and growing threat to the livelihood of human musicians.}
 {Machine musicianship, p. 3}
 
 \zitat{One of the notable characteristics of the fiels is the resurgence of the composer/improviser, those musicians who design interactive systems and then improvise with them and/or other players in performance (e.g. Tichard Teitelbaum, George Lewis, Chris Chafe, Mari Kimura, David Wessel, Ed Campion, Laetitia Sonami, and many others.}
 {Machine musicianship, p. 7-8}
 
-\zitat{"(Selection Principles == G. M. Koenig)"}
-{Machine musicianship, p. 205}
+\zitat{The training of musicians begins by teaching basic musical concepts, a collection of knowledge commonly known as musicianship. These concepts underlie the musical skills of listening, performance, and composition.}
+{Machine musicianship, p. 1}
+
+\zitat{Those who dismiss machine musicianship tend to argue that algorithmic composition programs (as one example) are more interseting technologically than they are musically.}
+{Machine musicianship, p. 3}
