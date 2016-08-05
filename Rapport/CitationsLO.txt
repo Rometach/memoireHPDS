@@ -6,3 +6,56 @@
 
 ¬¬¬ \zitat{Deshalb glaube ich, dass das Wissen darum für den Hörer nicht unbedingt nötig ist. Die Stücke sollten deshalb sinnlich, also ganz im Bereich des Klanglichen, rezipiert werden. In beiden Fällen gehe ich jedoch vom Hören aus: die Strukturgeneratoren (ob sie nun die Lexikon-Sonate, Amazing Maze oder Champ d'Action betreffen) gehen immer von Wahrnehmungsphänomenen aus, niemals von abstrakten oder gar mathematischen Prämissen. Deshalb meine ich auch, dass sich meine Musik am besten durch offenes, bereitwilliges und vorbehaltloses Hören erschließt, in einem aktiven Wahrnehmungsprozess, in dem sich der Hörer aufgrund seiner jeweiligen persönlichen Voraussetzungen sozusagen seine eigene Fassung der Komposition mitkomponiert. Hören wird hier nicht zum bloßen Abbilden und Entziffern einer vorgegebenen Wirklichkeit, sondern zu einer schöpferischen Konstruktion.}
 {+ Karlheinz Essl / Bernhard Günther - Realtime Composition - Musik diesseits der Schrift} ¬¬¬
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+%\item \guill{JF: Curtis Roads behauptet: „Some composers who use formal methods feel that what the listener hears is secondary. They take professional satisfaction in knowing that their structures are logically generated, whether or not they are perceived as such.” Welchen Stellenwert hat für Sie eine „strukturelle Konsistenz“, die Ihnen der Algorithmus liefert? In welchem Verhältnis stehen für Sie die daraus resultierenden klanglichen Phänomene? KHE: Das, was Curtis Roads anspricht, hat natürlich eine tiefe Wahrheit und das ist auch mein Eindruck, wenn ich auf Computermusik-Konferenzen war. Dort präsentieren junge Computerkids, die meist mehr aus den Ingenieurs-wissenschaften als aus der Musik kommen, stolz ihre Programme und Algorithmen, die sie dann verklanglichen. Meistens klingt das Ganze dann ziemlich beschissen, weil sie irgendwelche MIDI-Instrumente verwenden oder gar nicht auf den Klang achten. Sie sind halt stolz, dass sie diese wunderbare Struktur, die sie gefunden haben, auch verklanglichen können. Dagegen bin ich natürlich auch. \tpp~Ich glaube der Algorithmus darf nie ein sich selbst genügender Fetisch werden, auf dessen Logizität man sich beruft und sagt: Diese Struktur ist so schön und alles ist mathematisch in Beziehung und damit stimmig. Es muss immer an der Wirklichkeit und an unserer Hörerfahrung getestet sein. Deswegen denke ich mir, dass der Hörer eine sehr wichtige Instanz ist. Wenn ich komponiere bin ich selbst mein erster Hörer und teste immer, was der Algorithmus ausgibt und ob das überhaupt relevant für mein Hören ist.}, \cite{intuitionautomation}.
+%
+%\item \guill{GF: Do you think that the net has a specific musical potential? KHE: From my personal experience, I think that the most important thing is the communication aspect.}, \cite{netmusic}.
+%
+%\item \guill{Vom Bewohner eines Elfenbeinturmes bin ich peu-à-peu zum global citizen geworden, dessen Tätigkeit sich nicht mehr allein im Verfertigen komplexer Partituren erschöpft. Durch den Kontakt mit Gleichgesinnten, der zunächst hauptsächlich über Mailing-Lists ausgetragen wurde, reiften in mir neue Ideen, die den für mich bislang gültigen Werkcharakter von Musik immer fragwürdiger werden ließen. Der nicht-hierarchische Charakter des Internets mit seiner rhizomatischen Struktur zeigt vielfache Entsprechungen zu meiner persönlichen Sichtweise, Musik als kommunikatives Netzwerk aufzufassen und dieses auch sinnlich erfahrbar zu machen.}, \cite{netmusic}.
+%
+%\item \guill{Essl nutzt die heutigen Möglichkeiten der TECHNIK als Mittel, musikalische Möglichkeitsstrukturen zu schaffen, die in der Lage sind, unbeliebig Anderes zu realisieren als die Vorstellung des Komponisten.}, \cite{irrealenzyklopadie}.
+%
+%\item \guill{In meinem Aufsatz Computer Aided Composition, den ich 1991 veröffentlicht habe, geht es genau um die Frage, was der Computer dem Komponisten zurückgibt. Darin habe ich zwei Sachen postuliert. Erstens: Wir müssen den Computer selber programmieren, d. h. wir müssen unsere eigenen persönlichen individuellen kompositorischen Ideen und Fragestellungen in Form von Computerprogrammen formulieren. Zweitens: Der Computer wird dadurch zum Werkzeug, das diese Regelsysteme (die ja nicht bloß abstrakt sind, sondern von kompositorischen Ideen ausgehen) anwendet, dabei Ergebnisse erzeugt und uns diese dann widerspiegelt. In den vom Computer errechneten Resultaten erkennen wir die Tragweite unserer kompositorischen Ideen. Ich vergleiche den Computer (bzw. die Software, die auf ihm läuft) gerne mit einem Spiegel, der das, was wir uns vorstellen, sehr rasch realisieren kann.}, \cite{intuitionautomation}.
+%
+%\item \guill{In my book \emph{Interactive Music Systems} I identified three classes of compositional algorithms that are particularly suited to interaction: sequencing, generation and transformation. Sequencing involves the use of prerecorded material that is played back more or less as recorded, but with control over start and stop points, looping, playback tempo, and so on. \tpp~Transformations techniques, which were discussed extensively in \emph{Interactive Music Systems} in connection with my program, Cypher, take input arriving from an external source, apply one or several transformations to it, and output the varied material as a counterpoint to the original. Generation techniques extract seed material from some stored repertoire and apply processes to adapt, extend, or embellish it.}, \cite{rowe2004machine}.
+%\end{itemize}
